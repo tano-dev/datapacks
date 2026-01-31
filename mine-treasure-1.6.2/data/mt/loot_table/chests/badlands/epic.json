@@ -1,0 +1,351 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": {
+          "type": "minecraft:storage",
+          "storage": "mt:settings",
+          "path": "loot_table_rolls.initial"
+        },
+        "p": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mt.total",
+          "scale": 0.000001
+        }
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mt:charms/epic",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.035
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mt.total": {
+                  "max": 599999
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mt:custom_items/detonation_mine",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#disable_deto_mine"
+                },
+                "score": "mt.constant"
+              },
+              "range": 0
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mt.total": {
+                  "min": 700000
+                }
+              }
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$vanilla_mode"
+                },
+                "score": "mt.var"
+              },
+              "range": 0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Blight Rocket",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "weapon": "blight"
+                },
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    },
+                    {
+                      "shape": "small_ball"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A deadly firework rocket capable of ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "eliminating an Iron Golem in 5 hits. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mt.total": {
+                  "min": 550000
+                }
+              }
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$vanilla_mode"
+                },
+                "score": "mt.var"
+              },
+              "range": 0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "unstable": "true"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Be careful when placing as it ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "explodes upon being touched. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$vanilla_mode"
+                },
+                "score": "mt.var"
+              },
+              "range": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

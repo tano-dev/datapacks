@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "components": {
+              "minecraft:custom_data": {
+                "e-charm:charm_of_greed": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

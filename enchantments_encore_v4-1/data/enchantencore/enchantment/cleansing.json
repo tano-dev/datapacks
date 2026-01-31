@@ -1,0 +1,37 @@
+{
+  "description": {
+    "translate": "enchantment.enchantencore.cleansing"
+  },
+  "exclusive_set": "#enchantencore:exclusive_set/shield",
+  "supported_items": "minecraft:shield",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 31,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantencore:cleansing"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": 1.5
+        }
+      }
+    ]
+  }
+}

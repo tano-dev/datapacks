@@ -1,0 +1,24 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/desert/cores",
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_desert/mains/main",
+        "processors": "ddd:cracked_deepslate_demolition_70",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_desert/mains/main",
+        "processors": "ddd:cracked_deepslate_demolition_70",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

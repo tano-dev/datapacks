@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": "First Treasure!",
+    "description": "Find your first Treasure!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/root",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

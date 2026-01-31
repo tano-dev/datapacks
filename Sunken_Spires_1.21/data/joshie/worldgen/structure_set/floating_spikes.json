@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "joshie:sunken_spires/floating_spikes",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 24,
+    "salt": 8749932
+  }
+}

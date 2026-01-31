@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/frozen/terminals/halls",
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/frozen/terminals/halls/terminal_hall",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

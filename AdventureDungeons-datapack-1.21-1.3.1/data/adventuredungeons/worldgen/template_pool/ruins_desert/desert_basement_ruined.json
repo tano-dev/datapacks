@@ -1,0 +1,69 @@
+{
+    "name": "adventuredungeons:ruins_desert/desert_house_ruined",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement1",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement2",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement3",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement4",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement5",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement6",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_basement_ruined/ruins_desert_small_basement_room1",
+          "processors": "adventuredungeons:ruins_desert_basement",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

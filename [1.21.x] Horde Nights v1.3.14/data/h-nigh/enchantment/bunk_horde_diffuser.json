@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "rrc.h-nigh.enchantment.bunk_horde_smite",
+    "fallback": "Bunk Horde Diffuser"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"h-nigh.mob\"]}",
+            "type": "#h-nigh:creepers"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#h-nigh:exclusive_set/horde_damage",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 2
+  },
+  "max_level": 69,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "primary_items": "#minecraft:swords",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 1
+}

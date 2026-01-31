@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "contents": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "h-nigh:properly_infused_diamond": true
+          }
+        }
+      }
+    }
+  }
+}

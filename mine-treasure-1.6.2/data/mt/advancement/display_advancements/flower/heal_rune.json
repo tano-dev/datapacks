@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_pottery_sherd"
+    },
+    "title": "<3",
+    "description": "Use a Heal Rune",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_flower_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+  "minecraft:custom_data": "{rune:\"mt.heal\"}"
+      }        }
+      }
+    }
+  }
+}

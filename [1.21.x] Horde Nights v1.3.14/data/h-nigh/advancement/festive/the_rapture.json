@@ -1,0 +1,53 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_helmet",
+        "components": {
+          "minecraft:custom_model_data": 6548001
+        }
+      },
+      "title": {
+        "translate": "rrc.h-nigh.advancement.the_rapture.title",
+        "fallback": "The Rapture Keeps Coming!",
+        "color": "red",
+        "bold": true,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "description": [
+        {
+        "translate": "rrc.h-nigh.advancement.the_rapture.description",
+        "fallback": "Go through 33 Festive Moons",
+        "bold": false,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+        },
+        "\n\n",
+        {
+          "translate": "rrc.generic.identifier.h-nigh.title",
+          "fallback": "Horde Nights",
+          "color": "#BA0000",
+          "bold": true,
+          "italic": true
+        }
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "h-nigh:blood/many_nights",
+    "criteria": {
+      "h-nigh:the_rapture": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "experience": 5000
+    }
+  }
+  

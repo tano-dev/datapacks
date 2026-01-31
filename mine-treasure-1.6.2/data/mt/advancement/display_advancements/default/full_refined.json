@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": "Fully Refined",
+    "description": "Wear a Full Set of Refined Netherite Armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mt:treasure_advancements/first_legendary_default_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+  "minecraft:custom_data": "{armor:\"rn_helmet\"}"
+      }            },
+            "chest": {
+              "predicates": {
+  "minecraft:custom_data": "{armor:\"rn_chest\"}"
+      }            },
+            "legs": {
+              "predicates": {
+  "minecraft:custom_data": "{armor:\"rn_legs\"}"
+      }            },
+            "feet": {
+              "predicates": {
+  "minecraft:custom_data": "{armor:\"rn_boots\"}"
+      }            }
+          }
+        }
+      }
+    }
+  }
+}

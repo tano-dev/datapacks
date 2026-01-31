@@ -1,0 +1,69 @@
+{
+    "name": "adventuredungeons:ruins_snow/snow_house_ruined",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house1",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house2",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house3",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house4",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house5",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house6",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_snow/snow_house_ruined/ruins_snow_small_house7",
+          "processors": "adventuredungeons:ruins_snow",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

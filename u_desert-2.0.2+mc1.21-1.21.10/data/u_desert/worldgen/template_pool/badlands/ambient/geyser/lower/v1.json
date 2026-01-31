@@ -1,0 +1,15 @@
+{
+  "name": "u_desert:badlands/ambient/geyser/lower/v1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:badlands/ambient/geyser/v1/lower",
+        "projection": "rigid",
+        "processors": "u_desert:badlands/ambient/geyser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": 6548001
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.long_night.title",
+      "fallback": "Longest Night of My Life!",
+      "color": "red",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.long_night.description",
+      "fallback": "Survive your first Blood Moon.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "h-nigh:blood/blood_hunt",
+  "criteria": {
+    "h-nigh:long_night": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

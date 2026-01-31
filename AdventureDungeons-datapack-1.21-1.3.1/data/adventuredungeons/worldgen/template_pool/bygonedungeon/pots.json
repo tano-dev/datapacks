@@ -1,0 +1,87 @@
+{
+    "name": "adventuredungeons:bygonedungeon/pots",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic1",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic2",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic3",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic4",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic5",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic6",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic7",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic8",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/pots/bygone_pot_generic9",
+          "processors": "adventuredungeons:bygonedungeon_nocobblestairs",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

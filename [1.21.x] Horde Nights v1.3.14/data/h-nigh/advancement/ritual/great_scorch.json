@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": 6548002
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.ritual.great_scorch.title",
+      "fallback": "Great Scorch!",
+      "color": "gold",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.ritual.great_scorch.description",
+      "fallback": "Scorch a Primed Diamond on a campfire.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "h-nigh:ritual/prime",
+  "criteria": {
+    "h-nigh:great_scorch": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

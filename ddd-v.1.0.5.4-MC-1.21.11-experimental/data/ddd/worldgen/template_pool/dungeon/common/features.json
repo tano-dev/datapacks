@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/zombie_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/skeleton_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/spider_spawner",
+        "processors": "ddd:cobweb_50",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/leather_zombie_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/leather_skeleton_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/cave_spider_spawner",
+        "processors": "ddd:cobweb_50",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features/raw_ores",
+        "processors": "ddd:raw_ores_random",
+        "projection": "rigid"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

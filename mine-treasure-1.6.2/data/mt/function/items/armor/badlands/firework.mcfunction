@@ -1,0 +1,1 @@
+data merge entity @s {Silent:1b,HasVisualFire:1b,LifeTime:200}

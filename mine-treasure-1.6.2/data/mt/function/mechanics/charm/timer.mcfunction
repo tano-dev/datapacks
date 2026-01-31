@@ -1,0 +1,1 @@
+execute if entity @s[scores={mt.luck=1..}] run function mt:mechanics/charm/second

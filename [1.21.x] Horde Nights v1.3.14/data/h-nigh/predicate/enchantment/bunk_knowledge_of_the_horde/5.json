@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "contents": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": [
+                    "h-nigh:bunk_knowledge_of_the_horde"
+                  ],
+                  "levels": 5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

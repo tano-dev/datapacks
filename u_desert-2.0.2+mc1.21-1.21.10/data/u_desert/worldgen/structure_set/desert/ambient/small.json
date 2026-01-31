@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.33,
+    "spacing": 5,
+    "separation": 2,
+    "salt": 12945854
+  },
+
+  "structures": [
+    {
+      "structure": "u_desert:desert/ambient/cactus/fork",
+      "weight": 2
+    },
+    {
+      "structure": "u_desert:desert/ambient/cactus/patch",
+      "weight": 1
+    }
+  ]
+}

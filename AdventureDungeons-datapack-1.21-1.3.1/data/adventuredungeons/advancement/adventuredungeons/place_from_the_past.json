@@ -1,0 +1,39 @@
+{
+  "parent": "adventuredungeons:adventuredungeons/root",
+  "criteria": {
+    "place_from_the_past": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:bygonedungeon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Find Bygone Dungeon. This is an old, abandoned place, what could it hide?"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "Place From the Past"
+    }
+  },
+  "requirements": [
+    [
+      "place_from_the_past"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

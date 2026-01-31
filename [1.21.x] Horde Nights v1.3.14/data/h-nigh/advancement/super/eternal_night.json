@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": 6548003
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.eternal_night.title",
+      "fallback": "A Night Even Longer...",
+      "color": "dark_red",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.eternal_night.description",
+      "fallback": "Endure your first SUPER Moon...",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "h-nigh:super/super_hunt",
+  "criteria": {
+    "h-nigh:eternal_night": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  }
+}

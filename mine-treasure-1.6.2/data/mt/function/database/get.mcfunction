@@ -1,0 +1,1 @@
+$data modify storage mt:write data merge from storage mt:database "$(UUID)"

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:desert/ambient/cactus/fork",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/ambient/cactus/patch",
+      "required": true
+    }
+  ]
+}

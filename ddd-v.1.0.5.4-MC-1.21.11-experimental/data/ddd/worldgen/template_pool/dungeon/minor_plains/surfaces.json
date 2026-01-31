@@ -1,0 +1,51 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/surfaces/dungeon_surface_plains_2",
+        "processors": "ddd:stone_bricks_logoration",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/surfaces/dungeon_surface_plains_3",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/surfaces/dungeon_surface_plains_4",
+        "processors": "ddd:stone_organic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/surfaces/dungeon_surface_plains_5",
+        "processors": "ddd:stone_bricks_logoration",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/surfaces/dungeon_surface_plains_6",
+        "processors": "ddd:stone_bricks_logoration",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+    
+  ],
+  "fallback": "minecraft:empty"
+}

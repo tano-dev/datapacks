@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/trident_shrine",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 47932451,
+        "separation": 80,
+        "spacing": 180
+    }
+}

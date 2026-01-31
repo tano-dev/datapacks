@@ -1,0 +1,555 @@
+{
+    "name": "adventuredungeons:bygonedungeon/decors",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_saferoom_shelf6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_leaves1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_leaves2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_leaves3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_leaves4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bed6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_bookshelf6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_living_leaves6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_magic_shelf1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_magic_shelf2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_magic_shelf3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_books6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_book1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_book2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_book3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_rooms_main_book4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand7",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand8",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand9",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_brewingstand10",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_5",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_battleroom_cauldron4x1_6",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_bed1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_bed2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_bed3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/decors/bygone_bed4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

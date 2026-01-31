@@ -1,0 +1,87 @@
+{
+  "name": "u_desert:desert/ambient/cactus/fork",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/cactus_flower/v1",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/cactus_flower/v2",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/cactus_flower/v3",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/grass/v1",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/grass/v2",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/grass/v3",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/rose_bush/v1",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/rose_bush/v2",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/cactus/fork/rose_bush/v3",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/cactus"
+      }
+    }
+  ]
+}

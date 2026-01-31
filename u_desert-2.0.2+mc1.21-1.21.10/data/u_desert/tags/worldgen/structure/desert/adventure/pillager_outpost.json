@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:desert/adventure/pillager_outpost/standard",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/adventure/pillager_outpost/abandoned",
+      "required": true
+    }
+  ]
+}

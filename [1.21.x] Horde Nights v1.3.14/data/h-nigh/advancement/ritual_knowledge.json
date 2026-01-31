@@ -1,0 +1,169 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": 6548001
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.ritual_knowledge.title",
+      "fallback": "Ritual Mastery",
+      "color": "dark_blue",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.ritual_knowledge.description",
+      "fallback": "Complete all currently availible ritual paths.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rrc:h-nigh",
+  "criteria": {
+    "h-nigh:bad_burn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/bad_burn": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:blood_pact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/blood_pact": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:great_infusion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/great_infusion": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:great_scorch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/great_scorch": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:low_quality_haunting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/low_quality_haunting": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:prime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/prime": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:super_pact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/super_pact": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:weakest_pact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/weakest_pact": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:informational_pact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/informational_pact": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:prime_two": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/prime_two": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

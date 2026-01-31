@@ -1,0 +1,51 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Warped Slowdown"
+  },
+  "supported_items": "#minecraft:foot_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "mt:items/armor/warped/on_attacker"
+            }
+          ]
+        },
+        "enchanted": "victim",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

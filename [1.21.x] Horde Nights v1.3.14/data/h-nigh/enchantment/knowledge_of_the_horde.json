@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "rrc.h-nigh.enchantment.knowledge_of_the_horde",
+    "fallback": "Knowledge of The Horde"
+  },
+  "exclusive_set": "#h-nigh:exclusive_set/horde_knowledge",
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 5
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "primary_items": "#minecraft:swords",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 6
+}

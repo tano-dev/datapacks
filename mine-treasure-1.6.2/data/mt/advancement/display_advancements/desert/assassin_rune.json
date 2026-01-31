@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blade_pottery_sherd"
+    },
+    "title": "John Wick-ed",
+    "description": "Use an Assassin Rune",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_desert_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+  "minecraft:custom_data": "{rune:\"mt.assassin\"}"
+      }        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute store result score @a[scores={mt.legendary_chance=99999999..}] mt.legendary_chance run scoreboard players get #chance_legendary mt.var

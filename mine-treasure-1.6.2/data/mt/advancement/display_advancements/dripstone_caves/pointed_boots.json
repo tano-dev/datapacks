@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hanging_roots"
+    },
+    "title": "A Planned Fall",
+    "description": "Activate the Pointed Boots",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_dripstone_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+  "minecraft:custom_data": "{weapon:\"point\"}"
+      }            }
+          }
+        },
+        "distance": {
+          "absolute": {
+            "min": 9.5
+          }
+        }
+      }
+    }
+  }
+}

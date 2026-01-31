@@ -1,0 +1,40 @@
+{
+  "type": "vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "tower_key"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Tower Key"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

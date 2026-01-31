@@ -1,0 +1,176 @@
+{
+  "parent": "adventuredungeons:adventuredungeons/root",
+  "criteria": {
+    "adventuredungeons:bygone_dungeon": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:bygonedungeon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:coldlair": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:coldlair"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:trial_rooms": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:trialrooms"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:ruins_desert": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:ruins_desert"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:ruins_snow": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:ruins_snow"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:ruins_standard": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:ruins_standard"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:underground_camp": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:underground_camp"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "adventuredungeons:swamp_fever": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "adventuredungeons:murkydungeon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Congratulations! You have visited all structures from Adventure Dungeons"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "Adventure Only Begins"
+    }
+  },
+  "requirements": [
+    [
+      "adventuredungeons:bygone_dungeon"
+    ],
+    [
+      "adventuredungeons:trial_rooms"
+    ],
+    [
+      "adventuredungeons:coldlair"
+    ],
+    [
+      "adventuredungeons:ruins_snow"
+    ],
+    [
+      "adventuredungeons:ruins_desert"
+    ],
+    [
+      "adventuredungeons:ruins_standard"
+    ],
+    [
+      "adventuredungeons:underground_camp"
+    ],
+    [
+      "adventuredungeons:swamp_fever"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

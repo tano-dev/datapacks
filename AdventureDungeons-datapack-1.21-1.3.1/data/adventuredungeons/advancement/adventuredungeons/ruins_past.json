@@ -1,0 +1,39 @@
+{
+  "parent": "adventuredungeons:adventuredungeons/root",
+  "criteria": {
+    "ruins_of_past": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": ["adventuredungeons:ruins_desert", "adventuredungeons:ruins_standard", "adventuredungeons:ruins_snow"]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Find your first Ruins. Maybe you can find some leads here..."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "Storyteller"
+    }
+  },
+  "requirements": [
+    [
+      "ruins_of_past"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

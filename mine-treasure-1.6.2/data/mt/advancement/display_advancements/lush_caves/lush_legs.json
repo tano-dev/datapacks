@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": "Let The Prickening Begin",
+    "description": "Find The Lush Caves Leggings",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mt:treasure_advancements/first_legendary_lush_caves_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "predicates": {
+  "minecraft:custom_data": "{armor:\"lush_cave_leggings\"}"
+      }          }
+        ]
+      }
+    }
+  }
+}

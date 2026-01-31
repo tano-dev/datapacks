@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": "I Foresee Great Fortune... WITH ME!",
+    "description": "Use a Mysterichant Rune",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_taiga_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+  "minecraft:custom_data": "{rune:\"mt.mysterichant\"}"
+      }        }
+      }
+    }
+  }
+}

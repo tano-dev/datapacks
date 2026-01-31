@@ -1,0 +1,26 @@
+{
+    "name": "adventuredungeons:coldlair/feature",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/feature/coldlair_mob_allay1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "adventuredungeons:coldlair/feature/coldlair_mob_allay2",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

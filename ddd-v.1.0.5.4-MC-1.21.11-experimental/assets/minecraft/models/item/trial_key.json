@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+ 	"layer0": "minecraft:item/trial_key"
+	},	
+	"overrides": [
+	{
+	"predicate": {
+		"custom_model_data": 8001
+	 },
+	  "model": "minecraft:item/normal_keys/spider_key"
+    },
+	{
+	"predicate": {
+		"custom_model_data": 8003
+	 },
+	  "model": "minecraft:item/normal_keys/tower_key"
+	},	
+	{
+	"predicate": {
+		"custom_model_data": 8005
+	 },
+	  "model": "minecraft:item/normal_keys/knight_key"
+	},
+	{
+	"predicate": {
+		"custom_model_data": 8007
+	 },
+	  "model": "minecraft:item/normal_keys/rotten_key"
+	},
+	{
+	"predicate": {
+		"custom_model_data": 8009
+	 },
+	  "model": "minecraft:item/normal_keys/golden_key"
+	},
+	{
+	"predicate": {
+		"custom_model_data": 8011
+	 },
+	  "model": "minecraft:item/normal_keys/scorching_key"
+	},
+	{
+	"predicate": {
+		"custom_model_data": 8013
+	 },
+	  "model": "minecraft:item/normal_keys/wizard_key"
+	}
+ ]
+}

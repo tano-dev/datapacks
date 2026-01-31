@@ -1,0 +1,24 @@
+{
+  "name": "u_desert:badlands/ambient/termite_mound",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:badlands/ambient/termite_mound/v1",
+        "projection": "rigid",
+        "processors": "u_desert:badlands/ambient/termite_mound"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:badlands/ambient/termite_mound/v2",
+        "projection": "rigid",
+        "processors": "u_desert:badlands/ambient/termite_mound"
+      }
+    }
+  ]
+}

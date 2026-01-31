@@ -1,0 +1,12 @@
+{
+  "values":[
+    { "id": "minecraft:bogged", "required": true },
+    { "id": "minecraft:skeleton", "required": true },
+    { "id": "minecraft:stray", "required": true },
+    { "id": "minecraft:witch", "required": true},
+    { "id": "minecraft:phantom", "required": true},
+    { "id": "minecraft:cave_spider", "required": true},
+    { "id": "minecraft:spider", "required": true},
+    { "id": "minecraft:enderman", "required": true}
+  ]
+}

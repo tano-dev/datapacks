@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_axe"
+    },
+    "cases": [
+      {
+        "when": "fiery_axe",
+        "model": {
+          "type": "model",
+          "model": "item/diamond_axes/fiery_axe"
+        }
+      },
+	  {
+	    "when": "fiery_axe_2",
+	    "model": {
+	      "type": "model",
+	      "model": "item/diamond_axes/fiery_axe"
+	    }
+	  }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "enter_wizard_tower": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ddd:wizard_tower"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Find a wizard tower"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Hogwarts Was Full"
+    }
+  },
+  "requirements": [
+    [
+      "enter_wizard_tower"
+    ]
+  ],
+    "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

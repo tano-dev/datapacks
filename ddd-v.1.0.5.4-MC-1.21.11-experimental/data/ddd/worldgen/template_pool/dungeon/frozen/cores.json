@@ -1,0 +1,24 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/frozen/cores",
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/frozen/cores/dungeon_core_frozen_1",
+        "processors": "ddd:frosting_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/frozen/cores/dungeon_core_frozen_1",
+        "processors": "ddd:frosting_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

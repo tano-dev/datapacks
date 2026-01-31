@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "h-nigh:primed_emerald_recipe_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "components": {
+              "minecraft:custom_data": {
+                "h-nigh:primed_diamond": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "h-nigh:primed_emerald_recipe_emerald"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "h-nigh:primed_emerald"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "mt.legendary_spawn": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mt:items/utility/tier_spawn/legendary/spawn"
+    }
+  }

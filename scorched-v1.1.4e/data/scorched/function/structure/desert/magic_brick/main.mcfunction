@@ -1,0 +1,1 @@
+execute as @s[tag=!scorched_des_magic_lit] if score second scorched_clock matches 1 positioned ~ ~-.5 ~ run function scorched:structure/desert/magic_brick/box

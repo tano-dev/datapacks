@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:desert/archeology/fossil/croc",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/head",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/skull/triceratops",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/skull/tyrannosaurus",
+      "required": true
+    }
+  ]
+}

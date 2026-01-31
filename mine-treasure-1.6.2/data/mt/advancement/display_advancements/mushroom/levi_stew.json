@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": "Up!",
+    "description": "Eat stew from a Levitation Cow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_mushroom_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:levitation",
+                "duration": 6001
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 6548002,
+                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.properly_scorched_diamond.name\",\"fallback\":\"Properly Scorched Diamond\",\"bold\":true,\"italic\":false,\"color\":\"dark_red\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"rrc.ref.item.crafting.sacrifice_ingredient\",\"fallback\":\"Sacrificial Crafting Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\" \"}",
+                  "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"bold\":true,\"italic\":true,\"color\":\"#BA0000\"}"
+                ],
+                "minecraft:custom_data": {
+                  "h-nigh:properly_scorched_diamond": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

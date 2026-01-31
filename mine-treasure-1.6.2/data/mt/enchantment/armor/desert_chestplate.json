@@ -1,0 +1,66 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Last Stand"
+  },
+  "supported_items": "#minecraft:chest_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.health": {
+                "min": 6,
+                "max": 10
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "desert_chestplate",
+          "amount": 0.2,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.health": {
+                "max": 5
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "desert_chestplate",
+          "amount": 0.4,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

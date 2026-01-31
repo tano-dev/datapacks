@@ -1,0 +1,315 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Wind Charged?"
+  },
+  "supported_items": "#minecraft:chest_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 1
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate1",
+          "amount": 0.1,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 2
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate2",
+          "amount": 0.2,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 3
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate3",
+          "amount": 0.3,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 4
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate4",
+          "amount": 0.4,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 5
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate5",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 6
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate6",
+          "amount": 0.6,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 7
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate7",
+          "amount": 0.7,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 8
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate8",
+          "amount": 0.8,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 9
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate9",
+          "amount": 0.9,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": 10
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "wind_chestplate10",
+          "amount": 1,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

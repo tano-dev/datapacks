@@ -1,0 +1,24 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/plains/cores",
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/cores/dungeon_core_minor_plains_1",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_plains/cores/dungeon_core_minor_plains_1",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

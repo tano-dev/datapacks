@@ -1,0 +1,77 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/spawner_liv2/nest_1",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/spawner_liv2/nest_1v",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_2",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_2v",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_3",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_3v",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_4",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/spawner_liv2/nest_4v",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

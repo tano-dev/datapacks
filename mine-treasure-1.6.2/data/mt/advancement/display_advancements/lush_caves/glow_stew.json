@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": "SUGAR RUSH!",
+    "description": "Eat a Glow Berry Soup",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_rare_lush_caves_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:speed",
+                "duration": 5600
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

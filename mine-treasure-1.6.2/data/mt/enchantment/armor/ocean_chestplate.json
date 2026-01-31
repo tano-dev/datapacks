@@ -1,0 +1,54 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Ocean Blessing"
+  },
+  "supported_items": "#minecraft:chest_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:block_interaction_range",
+              "id": "ocean_chestplate",
+              "amount": 5,
+              "operation": "add_value"
+            },
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:entity_interaction_range",
+              "id": "ocean_chestplate",
+              "amount": 2.5,
+              "operation": "add_value"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

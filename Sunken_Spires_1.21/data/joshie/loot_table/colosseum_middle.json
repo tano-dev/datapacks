@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 7
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:prismarine_shard", "weight": 35,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 10 } }] },
+        { "type": "minecraft:item", "name": "minecraft:prismarine_crystals", "weight": 30,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 25,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 6 } }] },
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 30,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:diamond", "weight": 15,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 18,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:lapis_lazuli", "weight": 20,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 5, "max": 15 } }] },
+        { "type": "minecraft:item", "name": "minecraft:nautilus_shell", "weight": 22,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:amethyst_shard", "weight": 12,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 5 } }] },
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 15,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 7 } }] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.75 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:trident", "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.3, "max": 0.7 } },
+            { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 20, "max": 30 }, "treasure": true }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 8,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.2, "max": 0.6 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sharpness", "minecraft:smite", "minecraft:looting", "minecraft:fire_aspect", "minecraft:sweeping_edge"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_chestplate", "weight": 6,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.3, "max": 0.7 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:protection", "minecraft:thorns", "minecraft:unbreaking"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_leggings", "weight": 6,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.3, "max": 0.7 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:protection", "minecraft:unbreaking"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_helmet", "weight": 7,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.2, "max": 0.6 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:protection", "minecraft:respiration", "minecraft:aqua_affinity", "minecraft:unbreaking"] }
+          ] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.60 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 10,
+          "functions": [
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sharpness", "minecraft:smite", "minecraft:protection", "minecraft:impaling", "minecraft:loyalty", "minecraft:riptide"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 5,
+          "functions": [
+            { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 25, "max": 35 }, "treasure": true }
+          ] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.45 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:heart_of_the_sea", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:sponge", "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:tide_armor_trim_smithing_template", "weight": 6 },
+        { "type": "minecraft:item", "name": "minecraft:silence_armor_trim_smithing_template", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:coast_armor_trim_smithing_template", "weight": 6 },
+        { "type": "minecraft:item", "name": "minecraft:sea_lantern", "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 5 } }] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.08 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:diamond_block", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_scrap", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 3,
+          "functions": [
+            { "function": "minecraft:enchant_with_levels", "levels": 30, "treasure": true }
+          ] }
+      ]
+    }
+  ]
+}
+
+

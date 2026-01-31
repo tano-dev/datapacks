@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "enchantencore:invisibility_cloak",
+      "required": false
+    },
+    {
+      "id": "enchantencore:sonic",
+      "required": false
+    },
+    {
+      "id": "minecraft:soul_speed",
+      "required": false
+    },
+    {
+      "id": "enchantencore:end_speed",
+      "required": false
+    },
+    {
+      "id": "enchantencore:sand_speed",
+      "required": false
+    },
+    {
+      "id": "enchantencore:path_speed",
+      "required": false
+    },
+    {
+      "id": "enchantencore:leaf_jumper",
+      "required": false
+    },
+    {
+      "id": "enchantencore:strafe",
+      "required": false
+    }
+  ]
+}

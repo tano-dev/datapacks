@@ -1,0 +1,10 @@
+{
+  "values":[
+    { "id": "minecraft:drowned", "required": true},
+    { "id": "minecraft:husk", "required": true},
+    { "id": "minecraft:zoglin", "required": true},
+    { "id": "minecraft:zombie_villager", "required": true},
+    { "id": "minecraft:zombie", "required": true},
+    { "id": "minecraft:zombified_piglin", "required": true}
+  ]
+}

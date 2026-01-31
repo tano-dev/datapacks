@@ -1,0 +1,33 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/potion_overlay",
+		"layer1": "item/lingering_potion"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 8101
+			},
+			"model": "minecraft:item/poison/poison"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8102
+			},
+			"model": "minecraft:item/poison/toxin"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8103
+			},
+			"model": "minecraft:item/poison/strong_poison"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8104
+			},
+			"model": "minecraft:item/poison/decayed_poison"
+		}
+	]
+}

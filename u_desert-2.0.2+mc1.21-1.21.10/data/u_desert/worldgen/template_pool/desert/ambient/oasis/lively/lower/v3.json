@@ -1,0 +1,15 @@
+{
+  "name": "u_desert:desert/ambient/oasis/lively/lower/v3",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/lively/v3/lower",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/lively"
+      }
+    }
+  ]
+}

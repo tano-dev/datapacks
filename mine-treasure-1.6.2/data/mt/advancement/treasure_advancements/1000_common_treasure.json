@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": "3000 more!",
+    "description": "Find 1000 Common Treasure!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mt:treasure_advancements/500_common_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mt:advancement",
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.common_count": {
+                "min": 1000
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

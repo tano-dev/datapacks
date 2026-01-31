@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/medium_decorations/statue_1",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/medium_decorations/statue_2",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/medium_decorations/statue_3",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,177 @@
+{
+    "name": "adventuredungeons:bygonedungeon/behind",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom4",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_corridor1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_fountain1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_camp1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_camp2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_storage1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_left_battle1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_tables1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_tables2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_carpets1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_carpets2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_beds1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_right_beds2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_corridor1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_behindroom_corridor2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/behind/bygone_final",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

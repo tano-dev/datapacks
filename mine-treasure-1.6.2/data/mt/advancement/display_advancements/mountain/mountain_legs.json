@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": "Oh Boy, That's Hard",
+    "description": "Obtain The Mountain Leggings",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mt:treasure_advancements/first_legendary_mountain_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "predicates": {
+  "minecraft:custom_data": "{armor:\"mountain_leggings\"}"
+      }          }
+        ]
+      }
+    }
+  }
+}

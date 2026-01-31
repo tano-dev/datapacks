@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.8,
+    "spacing": 32,
+    "separation": 10,
+    "salt": 138756534
+  },
+
+  "structures": [
+    {
+      "structure": "u_desert:desert/ambient/oasis/lively",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/ambient/oasis/dried_up",
+      "weight": 1
+    }
+  ]
+}

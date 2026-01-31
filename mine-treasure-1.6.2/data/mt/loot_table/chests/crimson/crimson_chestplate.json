@@ -1,0 +1,2697 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],                
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:blast_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "crimson_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 9.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crimson Forest Chestplate",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Every hit deals 2 true damage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "against enemies with Regeneration. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ], 
+                "minecraft:dyed_color": 10682368,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "armor": "crimson_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "joshie:ocean_shrine",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "joshie:ocean_shrine",
+                "processors": "joshie:conduit_ruins"
+            }
+        }
+    ]
+}

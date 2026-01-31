@@ -1,0 +1,53 @@
+{
+    "pack": {
+        "min_format": 48,
+        "max_format": 9999,
+      "pack_format": 71,
+      "supported_formats": {
+        "min_inclusive": 48,
+        "max_inclusive": 9999
+      },
+      "description": [
+       {
+        "translate": "Scorched",
+        "color": "#ffb62e"
+      },
+      {
+        "translate": " [v1.1.4e]",
+        "color": "#707070"
+      },
+      {
+        "translate": "\n"
+      },
+      {
+        "translate": "Desert & Badlands Additions",
+        "color": "#898f96"
+      }
+      ]
+    },
+    "overlays": {
+      "entries": [
+        {
+          "directory": "overlay-empty",
+          
+        "min_format": 81,
+        "max_format": 9999,
+          "formats": {
+            "max_inclusive": 9999,
+            "min_inclusive": 81
+          }
+        },
+        {
+          
+        "min_format": 88,
+        "max_format": 9999,
+          "directory": "1.21.9",
+          "formats": {
+            "max_inclusive": 9999,
+            "min_inclusive": 88
+          }
+        }
+      ]
+    }
+  }
+  

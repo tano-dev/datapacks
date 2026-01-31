@@ -1,0 +1,62 @@
+{
+  "criteria": {
+    "empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:air"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "mt:technical/armor/helmet_durability": false
+                }
+              },
+              "equipment": {
+                "head": {
+                  "items": ["minecraft:leather_helmet","minecraft:chainmail_helmet","minecraft:iron_helmet","minecraft:golden_helmet","minecraft:diamond_helmet","minecraft:netherite_helmet","minecraft:turtle_helmet","player_head","zombie_head","wither_skeleton_skull","skeleton_skull","creeper_head","dragon_head"]
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:leather_helmet","minecraft:chainmail_helmet","minecraft:iron_helmet","minecraft:golden_helmet","minecraft:diamond_helmet","minecraft:netherite_helmet","minecraft:turtle_helmet","player_head","zombie_head","wither_skeleton_skull","skeleton_skull","creeper_head","dragon_head"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "empty",
+      "head"
+    ]
+  ],
+  "rewards": {
+    "function": "mt:technical/armor/head_check"
+  }
+}

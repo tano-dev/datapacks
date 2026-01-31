@@ -1,0 +1,33 @@
+{
+  "name": "u_desert:desert/ambient/oasis/lively/upper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/lively/v1/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/lively"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/lively/v2/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/lively"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/lively/v3/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/lively"
+      }
+    }
+  ]
+}

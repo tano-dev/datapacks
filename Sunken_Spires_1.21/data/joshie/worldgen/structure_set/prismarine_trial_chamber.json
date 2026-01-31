@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/prismarine_trial_chamber",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 837759038,
+        "separation": 32,
+        "spacing": 108
+    }
+}

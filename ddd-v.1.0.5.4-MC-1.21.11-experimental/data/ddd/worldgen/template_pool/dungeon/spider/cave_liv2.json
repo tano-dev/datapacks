@@ -1,0 +1,176 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/cave_liv2/cave_1",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/cave_liv2/cave_2",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_3",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_4",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_5",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_6",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_7",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_8",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_9",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_10",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_11",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_12",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_13",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_14",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_15",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_16",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_17",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_18",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/cave_liv2/cave_19",
+	    "processors": "ddd:spider_cave",
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

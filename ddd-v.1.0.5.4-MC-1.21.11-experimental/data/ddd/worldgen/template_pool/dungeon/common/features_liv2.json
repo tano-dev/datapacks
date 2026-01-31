@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/zombie_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/skeleton_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/spider_spawner",
+        "processors": "ddd:cobweb_50",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/golden_zombie_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/golden_skeleton_spawner",
+        "processors": "ddd:aging_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/cave_spider_spawner",
+        "processors": "ddd:cobweb_50",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/features_liv2/raw_ores",
+        "processors": "ddd:raw_ores_random",
+        "projection": "rigid"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

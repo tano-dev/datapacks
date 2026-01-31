@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "QUICK, DON'T TOUCH IT!",
+    "description": "Place Unstable TNT",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_badlands_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "state": {
+          "unstable": "true"
+        },
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:tnt",
+            "properties": {
+              "unstable": "true"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "enchantencore:gluttony",
+      "required": false
+    },
+    {
+      "id": "enchantencore:welfare_curse",
+      "required": false
+    }
+  ]
+}

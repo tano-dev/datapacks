@@ -1,0 +1,142 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:capped",
+      "limit": 18,
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:sand",
+              "probability": 1
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_sand"
+            },
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "wabi_sabi_structures:archaeology/shrine_of_preservation/shrine_of_preservation_sandpit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:azalea",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:flowering_azalea"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:azalea_leaves",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:vine",
+            "probability": 0.18
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:hanging_roots",
+            "probability": 0.22
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:short_grass",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_concrete",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:red_terracotta"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_terracotta",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:red_concrete"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:green_stained_glass",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:lime_stained_glass"
+          }
+        }
+      ]
+    }
+  ]
+}

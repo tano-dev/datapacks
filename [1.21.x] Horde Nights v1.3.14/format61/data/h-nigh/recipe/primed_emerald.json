@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:emerald",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "minecraft:emerald",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          6548001
+        ]
+      },
+      "minecraft:custom_name": "[{\"translate\":\"rrc.h-nigh.item.emerald.primed_emerald.name1\",\"fallback\":\"Primed\",\"italic\":false,\"color\":\"red\"},{\"translate\":\"rrc.h-nigh.item.emerald.primed_emerald.name2\",\"fallback\":\" Emerald\",\"italic\":false,\"color\":\"dark_aqua\"}]",
+      "minecraft:lore": [
+        "{\"translate\":\"rrc.ref.item.ritual.ingredient\",\"fallback\":\"Ritual Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
+        "{\"text\":\" \"}",
+        "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"italic\":true,\"bold\":true,\"color\":\"#BA0000\"}"
+      ],
+      "minecraft:custom_data": {
+        "h-nigh:primed_emerald": true
+      }
+    }
+  }
+}

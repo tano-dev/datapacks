@@ -1,0 +1,42 @@
+{
+    "description": {
+      "translate": "",
+      "fallback": "Cold Aura"
+    },
+    "supported_items": "#minecraft:foot_armor",
+    "weight": 3,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "feet"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "requirements": {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:run_function",
+                "function": "mt:items/armor/ice/on_attacker"
+              }
+            ]
+          },
+          "enchanted": "victim",
+          "affected": "attacker"
+        }
+      ]
+    }
+  }

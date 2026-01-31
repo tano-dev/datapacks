@@ -1,0 +1,83 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_1",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_2",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_3",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_4",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_5",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_6",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_7",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/maze_low/maze_8",
+        "processors": "ddd:aging_deepslate_bricks",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ancient_cities:connector_main",
+  "fallback": "ancient_cities:end",
+  "elements": [
+	
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:connectors/bridge_connector_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:connectors/bridge_connector_2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:badlands/ambient/skeleton/rib",
+      "required": true
+    },
+    {
+      "id": "u_desert:badlands/ambient/skeleton/spine",
+      "required": true
+    }
+  ]
+}

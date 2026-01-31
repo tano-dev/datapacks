@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/tower/wizard_boss"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Elixir",
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:awkward",
+                  "custom_color": 6029762,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 5
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 400
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 1,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "duration": 2400
+                    }
+                  ]
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

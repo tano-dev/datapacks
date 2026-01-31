@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": 6548004
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.weird_nights.title",
+      "fallback": "Okay it's Normal Now...",
+      "color": "dark_green",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.weird_nights.description",
+      "fallback": "Survive 66 Bunk Blood Moons!!!",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "h-nigh:blood/many_nights",
+  "criteria": {
+    "h-nigh:weird_nights": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20000
+  }
+}

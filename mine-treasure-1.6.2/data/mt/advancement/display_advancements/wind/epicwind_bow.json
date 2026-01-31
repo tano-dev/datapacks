@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": "Pack-A-Punch",
+    "description": "Obtain a Bow From a Wind Epic Treasure",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_wind_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "predicates": {
+  "minecraft:custom_data": "{weapon:\"wbow\"}"
+      }          }
+        ]
+      }
+    }
+  }
+}

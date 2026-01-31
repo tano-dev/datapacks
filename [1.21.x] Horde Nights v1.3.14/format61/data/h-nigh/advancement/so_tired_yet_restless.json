@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:black_bed",
+        "components": {
+          "minecraft:custom_model_data": {
+            "floats": [
+              6548001
+            ]
+          }
+        }
+      },
+      "title": {
+        "translate": "rrc.h-nigh.advancement.so_tired_yet_restless.title",
+        "fallback": "Oh No You Don't!",
+        "color": "gray",
+        "bold": true,
+        "italic": true
+      },
+      "description": {
+        "translate": "rrc.h-nigh.advancement.so_tired_yet_restless.description",
+        "fallback": "No rest for you on these nights..."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "rrc:h-nigh",
+    "criteria": {
+      "h-nigh:no_sleep": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "experience": 10
+    }
+  }

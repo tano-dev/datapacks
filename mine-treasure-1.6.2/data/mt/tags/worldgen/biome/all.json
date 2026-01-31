@@ -1,0 +1,25 @@
+{
+    "values": [
+      "minecraft:nether_wastes",
+      "#mt:badlands",
+      "#mt:dark_forest",
+      "#mt:deep_dark",
+      "#mt:default_nether",
+      "#mt:desert",
+      "#mt:dripstone",
+      "#mt:flower",
+      "#mt:ice",
+      "#mt:jungle",
+      "#mt:lush_cave",
+      "#mt:mountain",
+      "#mt:mushroom",
+      "#mt:ocean",
+      "#mt:savanna",
+      "#mt:soul_valley",
+      "#mt:swamp",
+      "#mt:taiga",
+      "#mt:warped_forest",
+      "#mt:wind",
+      "#minecraft:is_end"
+    ]
+  }

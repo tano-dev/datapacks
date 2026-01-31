@@ -1,0 +1,101 @@
+{
+    "description": {
+      "text": "Technical, do not touch",
+      "color": "green"
+    },
+    "supported_items": "#minecraft:enchantable/armor",
+    "primary_items": "#minecraft:enchantable/chest_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:barrel",
+                    "state": {}
+                  }
+                }
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:treasure/container/broke"
+          }
+        },
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "periodic_tick": 100
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:barrel",
+                  "state": {
+                    "open": "false"
+                  }
+                }
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:treasure/container/empty/get_loot_table"
+          }
+        },
+        {
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "mt.hit",
+              "periodic_tick": 2
+            }
+          },
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:treasure/container/spawn"
+          }
+        },
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "periodic_tick": 600
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:treasure/container/delete"
+          }
+        }
+      ]
+    }
+  }

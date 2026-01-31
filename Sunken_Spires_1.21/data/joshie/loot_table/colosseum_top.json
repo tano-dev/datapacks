@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:prismarine_shard", "weight": 40,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 7 } }] },
+        { "type": "minecraft:item", "name": "minecraft:prismarine_crystals", "weight": 35,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 5 } }] },
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 35,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 6 } }] },
+        { "type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 25,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:copper_ingot", "weight": 30,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 7 } }] },
+        { "type": "minecraft:item", "name": "minecraft:lapis_lazuli", "weight": 28,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 10 } }] },
+        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 15,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:diamond", "weight": 10,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "minecraft:kelp", "weight": 20,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 12 } }] },
+        { "type": "minecraft:item", "name": "minecraft:nautilus_shell", "weight": 18,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 12,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:glow_ink_sac", "weight": 15,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.50 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 10,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.4, "max": 0.8 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sharpness", "minecraft:knockback", "minecraft:fire_aspect"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:iron_chestplate", "weight": 8,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.4, "max": 0.8 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:protection", "minecraft:unbreaking"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 9,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.3, "max": 0.7 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:protection", "minecraft:respiration", "minecraft:aqua_affinity"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:golden_sword", "weight": 6,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.5, "max": 0.9 } },
+            { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 15, "max": 25 }, "treasure": false }
+          ] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.40 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 10,
+          "functions": [
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:depth_strider", "minecraft:aqua_affinity", "minecraft:respiration", "minecraft:impaling", "minecraft:loyalty", "minecraft:unbreaking", "minecraft:sharpness"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:sea_lantern", "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.35 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:blade_pottery_sherd", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:arms_up_pottery_sherd", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:prize_pottery_sherd", "weight": 7 },
+        { "type": "minecraft:item", "name": "minecraft:plenty_pottery_sherd", "weight": 6 },
+        { "type": "minecraft:item", "name": "minecraft:angler_pottery_sherd", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:shelter_pottery_sherd", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:flow_pottery_sherd", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:coast_armor_trim_smithing_template", "weight": 6 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.15 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:trident", "weight": 1,
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.6, "max": 0.9 } },
+            { "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:impaling", "minecraft:loyalty"] }
+          ] },
+        { "type": "minecraft:item", "name": "minecraft:heart_of_the_sea", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:sponge", "weight": 3 }
+      ]
+    }
+  ]
+}
+
+

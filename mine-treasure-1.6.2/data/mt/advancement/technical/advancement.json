@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "mt:advancement"
+        }
+      }
+    },
+    "rewards": {
+      "function": "mt:technical/advancement"
+    }
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": "High in Vitamin B",
+    "description": "Eat stew from a Health Boost Cow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_mushroom_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:health_boost",
+                "duration": 6001
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

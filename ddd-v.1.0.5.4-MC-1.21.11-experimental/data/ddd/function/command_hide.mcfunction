@@ -1,0 +1,1 @@
+gamerule minecraft:command_block_output false

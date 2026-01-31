@@ -1,0 +1,68 @@
+ {
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_1_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_2_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_3_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_4_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_5_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_6_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:tower/wizard/rooms_liv2/wizard_room_7_liv2",
+        "processors": "ddd:tower_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

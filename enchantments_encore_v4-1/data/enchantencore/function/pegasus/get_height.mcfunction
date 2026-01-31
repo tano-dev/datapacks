@@ -1,0 +1,1 @@
+execute unless predicate enchantencore:entity/has_player_rider unless block ~ ~-1 ~ minecraft:air store result score @s enchantencore.pegasus run data get entity @s Pos[1]

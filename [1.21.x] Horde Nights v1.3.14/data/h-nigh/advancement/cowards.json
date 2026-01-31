@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cow_spawn_egg",
+      "components": {
+        "minecraft:custom_model_data": 6548001
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.coward.title",
+      "fallback": "Diary of a Wimpy Steve",
+      "color": "dark_red",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.coward.description",
+      "fallback": "Be marked as a coward. Maybe slay The Horde next time?",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rrc:h-nigh",
+  "criteria": {
+    "h-nigh:coward": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

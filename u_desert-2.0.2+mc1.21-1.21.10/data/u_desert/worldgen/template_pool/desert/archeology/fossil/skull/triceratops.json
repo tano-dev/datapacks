@@ -1,0 +1,15 @@
+{
+  "name": "u_desert:desert/archeology/fossil/skull/triceratops",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/archeology/fossil/skull/triceratops",
+        "projection": "rigid",
+        "processors": "u_desert:desert/archeology/fossil"
+      }
+    }
+  ]
+}

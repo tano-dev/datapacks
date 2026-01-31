@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:diamond",
+            "components": {
+              "minecraft:custom_data": {
+                "h-nigh:improperly_scorched_diamond": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "h-nigh:ref/advancement/improper_scorched_diamond"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "adventuredungeons:underground_camp/main",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:underground_camp/main/underground_camp1",
+          "processors": "adventuredungeons:underground_camp",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:underground_camp/main/underground_camp2",
+          "processors": "adventuredungeons:underground_camp",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:underground_camp/main/underground_camp3",
+          "processors": "adventuredungeons:underground_camp",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

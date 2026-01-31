@@ -1,0 +1,95 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/zombie_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/skeleton_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/golden_zombie_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/iron_zombie_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 4 
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/stray_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/golden_skeleton_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/iron_skeleton_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/spider_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/cave_spider_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/common/spawners_liv3/baby_zombie_spawner",
+        "processors": "ddd:deepslate_conversion",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

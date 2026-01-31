@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/dungeon/wood",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/dungeon/stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/dungeon/materials",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/dungeon/minerals",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ddd:chests/dungeon/misc",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

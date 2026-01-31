@@ -1,0 +1,62 @@
+{
+  "criteria": {
+    "empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "items": [
+                    "minecraft:air"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "legs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "mt:technical/armor/legs_durability": false
+                }
+              },
+              "equipment": {
+                "legs": {
+                  "items": ["minecraft:leather_leggings","minecraft:chainmail_leggings","minecraft:iron_leggings","minecraft:golden_leggings","minecraft:diamond_leggings","minecraft:netherite_leggings"]
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": ["minecraft:leather_leggings","minecraft:chainmail_leggings","minecraft:iron_leggings","minecraft:golden_leggings","minecraft:diamond_leggings","minecraft:netherite_leggings"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "empty",
+      "legs"
+    ]
+  ],
+  "rewards": {
+    "function": "mt:technical/armor/legs_check"
+  }
+}

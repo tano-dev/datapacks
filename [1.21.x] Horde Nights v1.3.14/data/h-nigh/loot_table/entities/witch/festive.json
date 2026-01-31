@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:entities/witch",
+            "weight": 3
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "name": "adventuredungeons:coldlair/center",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/center/coldlair_main1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

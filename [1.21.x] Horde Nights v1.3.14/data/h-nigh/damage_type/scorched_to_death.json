@@ -1,0 +1,7 @@
+{
+  "message_id": "sacrificial_burn",
+  "exhaustion": 15,
+  "scaling": "never",
+  "effects": "poking",
+  "death_message_type": "default"
+}

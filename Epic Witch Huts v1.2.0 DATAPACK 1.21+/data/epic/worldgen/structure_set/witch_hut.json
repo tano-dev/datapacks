@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "epic:witch_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 14357620,
+    "locate_offset": [0, 0, 0],
+    "spacing": 32,
+    "separation": 8
+  }
+}

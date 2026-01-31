@@ -1,0 +1,60 @@
+{
+    "name": "adventuredungeons:ruins_standard/standard_house_ruined",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house1",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house2",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house3",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house4",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house5",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_house_ruined/ruins_standard_small_house6",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

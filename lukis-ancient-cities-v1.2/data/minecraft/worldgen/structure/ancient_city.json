@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/ancient_city",
+  "step": "underground_decoration",
+  "liquid_settings": "ignore_waterlogging",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "ancient_cities:center/start",
+  "size": 20,
+  "start_height": {
+    "type": "minecraft:uniform",
+    
+        "max_inclusive": {
+     "absolute": -53
+    },
+        "min_inclusive": {
+     "absolute": -53
+    }
+  },
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

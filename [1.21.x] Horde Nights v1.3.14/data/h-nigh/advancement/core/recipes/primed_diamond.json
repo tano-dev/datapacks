@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "h-nigh:primed_diamond_recipe_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    },
+    "h-nigh:primed_diamond_recipe_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "h-nigh:primed_diamond_recipe_diamond",
+      "h-nigh:primed_diamond_recipe_redstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "h-nigh:primed_diamond"
+    ]
+  }
+}

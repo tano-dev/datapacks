@@ -1,0 +1,1 @@
+function mt:settings/get with storage mt:settings

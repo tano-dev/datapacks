@@ -1,0 +1,83 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_1",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_2",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_3",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_4",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_5",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_6",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_7",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/maze/maze_8",
+        "processors": "ddd:sandstone_texture",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

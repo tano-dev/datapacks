@@ -1,0 +1,113 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_1",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_2",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_3",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_4",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_5",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_6",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_7",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_8",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_9",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_10",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_11",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+        {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/decorations/decoration_12",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

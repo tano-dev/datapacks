@@ -1,0 +1,47 @@
+{
+    "description": {
+    "translate": "enchantment.enchantencore.growth"
+  },
+    "exclusive_set": "#enchantencore:exclusive_set/height",
+    "supported_items": "#enchantencore:valid_for_growth",
+    "weight": 2,
+    "max_level": 5,
+    "min_cost": {
+      "base": 12,
+      "per_level_above_first": 11
+    },
+    "max_cost": {
+      "base": 51,
+      "per_level_above_first": 11
+    },
+    "anvil_cost": 2,
+    "slots": [
+    "chest",
+    "body"
+  ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "enchantencore:growth",
+          "attribute": "minecraft:scale",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          },
+          "operation": "add_multiplied_base"
+        },
+        {
+          "id": "enchantencore:growthstep",
+          "attribute": "minecraft:step_height",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          },
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  }
+  

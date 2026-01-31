@@ -1,0 +1,56 @@
+{
+    "description": "Sheriff's Honour",
+    "supported_items": "minecraft:crossbow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "mt:projectile",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:damage_entity",
+                "damage_type": "mt:bypass_armor",
+                "min_damage": 3,
+                "max_damage": 3
+              },
+              {
+                "type": "minecraft:play_sound",
+                "sound": {
+                  "sound_id": "item.trident.hit_ground"
+                },
+                "volume": 1,
+                "pitch": 1
+              }
+            ]
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        }
+      ]
+    }
+  }

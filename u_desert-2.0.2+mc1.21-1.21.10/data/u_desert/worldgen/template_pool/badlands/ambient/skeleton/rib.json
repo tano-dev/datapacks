@@ -1,0 +1,24 @@
+{
+  "name": "u_desert:badlands/ambient/skeleton/rib",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:badlands/ambient/skeleton/rib/down",
+        "projection": "rigid",
+        "processors": "u_desert:badlands/ambient/skeleton"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:badlands/ambient/skeleton/rib/up",
+        "projection": "rigid",
+        "processors": "u_desert:badlands/ambient/skeleton"
+      }
+    }
+  ]
+}

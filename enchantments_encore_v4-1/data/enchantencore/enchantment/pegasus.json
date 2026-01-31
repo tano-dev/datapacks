@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate": "enchantment.enchantencore.pegasus"
+  },
+  "exclusive_set": "#enchantencore:exclusive_set/horse_armor",
+  "supported_items": "#enchantencore:all_horse_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 50
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantencore:pegasus/run"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "passenger": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantencore:pegasus/get_height"
+        }
+      }
+    ]
+  }
+}

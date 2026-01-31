@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Enhanced Pillager Outpost Datapack by sashiro",
+    "pack_format": 71,
+    "supported_formats": [71, 94],
+    "min_format": 71,
+    "max_format": [94, 1]
+  }
+}

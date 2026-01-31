@@ -1,0 +1,26 @@
+{
+    "name": "adventuredungeons:murkydungeon/rooms_failed",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms_failed/murky_fail1",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms_failed/murky_fail2",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

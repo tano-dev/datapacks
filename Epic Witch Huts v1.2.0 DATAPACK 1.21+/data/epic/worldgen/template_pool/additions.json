@@ -1,0 +1,123 @@
+{
+    "name": "epic:additions",
+    "fallback": "epic:additions",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_1"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_2"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_3"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_4"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_5"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_6"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_7"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_8"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_9"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_10"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_11"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_12"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/additions/addition_13"
+            },
+            "weight": 1
+        }
+    ]
+}

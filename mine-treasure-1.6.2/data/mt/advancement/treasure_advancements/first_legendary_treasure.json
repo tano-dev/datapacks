@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "Legen- Wait For It... DARY!",
+    "description": "Find your first Legendary Treasure!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mt:advancement",
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.legendary_count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

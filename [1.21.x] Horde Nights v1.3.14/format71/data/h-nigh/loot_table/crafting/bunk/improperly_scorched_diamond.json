@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    6548003
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "translate": "rrc.h-nigh.item.diamond.improporly_scorched_diamond.name",
+                  "fallback": "Improperly Scorched Diamond",
+                  "bold": true,
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "rrc.ref.item.crafting.failed.bunk.sacrifice_crafting",
+                    "fallback": "Bunk Sacrificial Crafting Ingredient",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "translate": "rrc.ref.item.crafting.failed.bunk.description",
+                    "fallback": "Can still be used, but things may go... weird.",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "rrc.generic.identifier.h-nigh.title",
+                    "fallback": "Horde Nights",
+                    "bold": true,
+                    "italic": true,
+                    "color": "#BA0000"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "h-nigh:improperly_scorched_diamond": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.8,
+    "spacing": 32,
+    "separation": 10,
+    "salt": 13544458
+  },
+
+  "structures": [
+    {
+      "structure": "u_desert:badlands/ambient/geyser",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/large_fossil",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1920384,
+        "separation": 32,
+        "spacing": 180
+    }
+}
+
+

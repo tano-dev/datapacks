@@ -1,0 +1,369 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "east",
+                "half": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "west",
+                "half": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "north",
+                "half": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "south",
+                "half": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "east",
+                "half": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "west",
+                "half": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "north",
+                "half": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "south",
+                "half": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_stairs",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_slab",
+            "Properties": {
+              "waterlogged": "false",
+              "type": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sandstone_slab",
+            "Properties": {
+              "waterlogged": "false",
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "top"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cut_sandstone_slab",
+            "Properties": {
+              "waterlogged": "false",
+              "type": "top"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cut_sandstone_slab",
+            "Properties": {
+              "waterlogged": "false",
+              "type": "bottom"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:yellow_wool",
+            "probability": 0.02
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_sand",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "u_desert:desert/archeology/ruin/suspicious_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:yellow_wool"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sand"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "u_desert:ground/all"
+          },
+          "output_state": {
+            "Name": "minecraft:barrier"
+          }
+        }
+      ]  
+    },
+    {
+      "processor_type": "minecraft:block_ignore",
+      "blocks": [
+        {
+          "Name": "minecraft:barrier"
+        }
+      ]
+    }
+  ]
+}

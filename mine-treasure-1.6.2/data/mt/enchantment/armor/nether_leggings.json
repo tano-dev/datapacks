@@ -1,0 +1,50 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Anti-Resistance Resistance"
+  },
+  "supported_items": "#leg_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "effects": {
+                    "minecraft:resistance": {}
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_damage",
+          "id": "nether_leggings",
+          "amount": 0.33,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

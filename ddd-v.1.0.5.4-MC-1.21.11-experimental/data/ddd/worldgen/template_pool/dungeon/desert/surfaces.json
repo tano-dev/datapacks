@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/surfaces/dungeon_surface_desert_2",
+        "processors": "ddd:sandstone_aging",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/surfaces/dungeon_surface_desert_3",
+        "processors": "ddd:sandstone_aging",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/surfaces/dungeon_surface_desert_4",
+        "processors": "ddd:sandstone_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/desert/surfaces/dungeon_surface_desert_5",
+        "processors": "ddd:sandstone_aging",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+    
+  ],
+  "fallback": "minecraft:empty"
+}

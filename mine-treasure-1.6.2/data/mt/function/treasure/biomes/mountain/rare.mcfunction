@@ -1,0 +1,7 @@
+$execute as $(name) run function mt:treasure/player/update/rare
+
+setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"mt:chests/mountain/rare",CustomName:{"text":"     Rare Mountain Treasure","color":"blue","bold":false,"italic":false}} destroy
+
+
+particle minecraft:smoke ~ ~ ~ 0.5 0.5 0.5 0.1 50 force
+playsound minecraft:block.anvil.land master @a[distance=..15] ~ ~ ~ 0.5 0.6 1

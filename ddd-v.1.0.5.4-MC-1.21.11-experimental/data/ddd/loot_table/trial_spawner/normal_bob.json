@@ -1,0 +1,40 @@
+{
+  "type": null,
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "scorching_key"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Scorching Key"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

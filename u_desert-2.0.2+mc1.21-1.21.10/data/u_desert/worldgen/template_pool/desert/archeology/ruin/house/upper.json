@@ -1,0 +1,24 @@
+{
+  "name": "u_desert:desert/archeology/ruin/house/upper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/archeology/ruin/house/v1/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/archeology/ruin/house"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/archeology/ruin/house/v2/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/archeology/ruin/house"
+      }
+    }
+  ]
+}

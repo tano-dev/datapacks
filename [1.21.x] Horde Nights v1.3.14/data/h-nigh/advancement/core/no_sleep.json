@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "h-nigh:no_sleep": {
+        "trigger": "minecraft:slept_in_bed"
+      }
+    },
+    "rewards": {
+      "function": "h-nigh:ref/advancement/no_sleep"
+    }
+  }

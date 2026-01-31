@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:dirt",
+      "required": true
+    },
+    {
+      "id": "#minecraft:terracotta",
+      "required": true
+    },
+    {
+      "id": "minecraft:stone",
+      "required": true
+    },
+    {
+      "id": "minecraft:diorite",
+      "required": true
+    },
+    {
+      "id": "minecraft:andesite",
+      "required": true
+    },
+    {
+      "id": "minecraft:granite",
+      "required": true
+    },
+    {
+      "id": "minecraft:gravel",
+      "required": true
+    },
+    {
+      "id": "minecraft:sand",
+      "required": true
+    },
+    {
+      "id": "minecraft:sandstone",
+      "required": true
+    },
+    {
+      "id": "minecraft:red_sand",
+      "required": true
+    },
+    {
+      "id": "minecraft:red_sandstone",
+      "required": true
+    }
+  ]
+}

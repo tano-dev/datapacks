@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:desert/ambient/oasis/dried_up",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/ambient/oasis/lively",
+      "required": true
+    }
+  ]
+}

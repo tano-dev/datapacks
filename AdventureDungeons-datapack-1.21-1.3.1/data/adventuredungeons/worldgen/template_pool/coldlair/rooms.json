@@ -1,0 +1,366 @@
+{
+    "name": "adventuredungeons:coldlair/rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_up1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_stairs1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_connector1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_connector_canal1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_leftwing1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_leftwing_torture1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_leftwing_stairs_cells1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_leftwing_cells1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_leftwing_cells_bonus1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_to_storage1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_waterlevel_storage1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+
+
+      
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_to_throne1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },      
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_to_throne_left1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_aquaduct1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_throne1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_corridors1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_aquaductsecond1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_librarylevel_stairs1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_librarylevel_to_stairs1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_livingcorridor1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_thronelevel_livingroom1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+
+
+
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_connector1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_connector_corridors1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_library1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_to_roundlibrary1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_roundlibrary1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_rightwing1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_to_corridor_map1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_librarylevel_map1",
+          "processors": "adventuredungeons:cold_lair_map",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+
+
+
+
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_randomlevel1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_randomlevel_corridors1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_randomlevel_rooms1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_randomlevel_corridor_to_anvil1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/rooms/coldlair_randomlevel_anvil1",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

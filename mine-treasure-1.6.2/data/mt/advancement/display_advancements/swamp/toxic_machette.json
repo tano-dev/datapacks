@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": "The Great Marsh of... Stink...",
+    "description": "Find the Toxic Machette",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_swamp_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ],
+            "predicates": {
+  "minecraft:custom_data": "{weapon:\"toxic_machette\"}"
+      }          }
+        ]
+      }
+    }
+  }
+}

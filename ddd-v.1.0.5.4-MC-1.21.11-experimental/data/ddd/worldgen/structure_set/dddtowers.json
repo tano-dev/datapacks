@@ -1,0 +1,24 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 47893215,
+		"separation": 32,
+		"spacing": 43,
+		"spread_type": "triangular",
+		"exclusion_zone": {
+			"other_set": "minecraft:villages",
+			"chunk_count": 8
+		}
+	},
+	"structures": [
+	{
+		"structure": "ddd:monolithic_tower",
+		"weight": 8
+	},
+		
+	{
+		"structure": "ddd:wizard_tower",
+		"weight": 2
+	}
+  ]
+}

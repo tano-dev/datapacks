@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/spires",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1932879,
+        "separation": 30,
+        "spacing": 250
+    }
+}

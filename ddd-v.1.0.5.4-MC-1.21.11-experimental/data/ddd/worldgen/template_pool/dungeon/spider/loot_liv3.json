@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/loot_liv3/loot_1",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/loot_liv3/loot_2",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/loot_liv3/loot_3",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	},
+	{
+	  "element": {
+	    "element_type": "minecraft:legacy_single_pool_element",
+	    "location": "ddd:dungeon/spider/loot_liv3/loot_4",
+	    "processors": [],
+	    "projection": "rigid"
+	  },
+	  "weight": 1
+	}
+
+  ],
+  "fallback": "minecraft:empty"
+}

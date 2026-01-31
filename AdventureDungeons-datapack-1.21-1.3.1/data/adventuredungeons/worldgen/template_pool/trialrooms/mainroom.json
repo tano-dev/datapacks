@@ -1,0 +1,96 @@
+{
+    "name": "adventuredungeons:trialrooms/mainroom",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom1",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom2",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom3",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom4",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom5",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom6",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom7",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom8",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/mainroom/trialrooms_mainroom9",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

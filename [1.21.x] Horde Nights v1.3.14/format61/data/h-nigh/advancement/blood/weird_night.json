@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548003
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.weird_night.title",
+      "fallback": "Weirdest Night of My Life!",
+      "color": "dark_green",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.weird_night.description",
+      "fallback": "Survive a Bunk Blood Moon...",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "h-nigh:blood/blood_hunt",
+  "criteria": {
+    "h-nigh:long_night": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "ddd:major_dungeon_plains",
+    "ddd:minor_dungeon_plains",
+    "ddd:minor_dungeon_desert",
+    "ddd:major_dungeon_desert",
+    "ddd:minor_dungeon_frozen",
+    "ddd:major_dungeon_frozen"
+  ]
+}

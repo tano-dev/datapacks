@@ -1,0 +1,101 @@
+{
+    "description": {
+      "translate": "",
+      "fallback": "Flower Gift"
+    },
+    "supported_items": "#minecraft:head_armor",
+    "weight": 3,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "head"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:weather_check",
+              "raining": false,
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 1000,
+                "max": 12000
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:attribute",
+                "attribute": "minecraft:attack_damage",
+                "id": "flower_helmet",
+                "amount": 0.4,
+                "operation": "add_multiplied_total"
+              }
+            ]
+          }
+        }
+      ],
+      "minecraft:damage_immunity": [
+        {
+          "requirements": [
+            {
+                "condition": "minecraft:weather_check",
+                "raining": false,
+                "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 1000,
+                "max": 12000
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "mt:magic",
+                    "expected": true
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            }
+          ],
+          "effect": {}
+        }
+      ]
+    }
+  }

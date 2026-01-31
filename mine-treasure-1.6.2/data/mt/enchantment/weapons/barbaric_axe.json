@@ -1,0 +1,102 @@
+{
+  "description": "BARBARIC!",
+  "supported_items": "minecraft:golden_axe",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 999999,
+    "per_level_above_first": 999
+  },
+  "max_cost": {
+    "base": 999999,
+    "per_level_above_first": 9999
+  },
+  "anvil_cost": 9999,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          {
+            "condition": "entity_scores",
+            "entity": "attacker",
+            "scores": {
+              "mt.hit_cooldown": {
+                "min": 10
+              }
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:is_player_attack",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:explosion"
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "offset": 1,
+                "scale": 0.001
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "offset": 0.001,
+                "scale": 0.001
+              },
+              "horizontal_velocity": {
+                "base": 0,
+                "movement_scale": 0.01
+              },
+              "vertical_velocity": {
+                "base": 0,
+                "movement_scale": 0.001
+              },
+              "speed": 0.1
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:entity.generic.explode",
+              "volume": 1,
+              "pitch": 1
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "mt:bypass_armor",
+              "min_damage": 4,
+              "max_damage": 4
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mt:mechanics/hit_cooldown"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

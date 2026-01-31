@@ -1,0 +1,24 @@
+{
+  "name": "u_desert:desert/archeology/ruin/pit/upper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/archeology/ruin/pit/v1/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/archeology/ruin/pit"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/archeology/ruin/pit/v2/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/archeology/ruin/pit"
+      }
+    }
+  ]
+}

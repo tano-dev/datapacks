@@ -1,0 +1,33 @@
+{
+    "name": "epic:epic_witch_hut/witch_hut",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/witch_hut"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/witch_hut2"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:mossify_20_percent",
+                "location": "epic:epic_witch_hut/witch_hut3"
+            },
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute as @a[advancements={mt:items/totems/totem_of_assassination=true}] at @s run function mt:items/totems/assassination_totem/effects

@@ -1,0 +1,24 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.5,
+    "spacing": 20,
+    "separation": 10,
+    "salt": 12445454
+  },
+
+  "structures": [
+    {
+      "structure": "u_desert:badlands/ambient/termite_mound",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:badlands/ambient/skeleton/rib",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:badlands/ambient/skeleton/spine",
+      "weight": 1
+    }
+  ]
+}

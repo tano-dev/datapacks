@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_concrete"
+    },
+    "title": "Don't Get Stuck in the Sky When You're High",
+    "description": "Consume the Mysterious Shroom Milk",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mt:treasure_advancements/first_common_mushroom_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+  "minecraft:custom_data": "{food:\"mt.shroom_milk\"}"
+      }        }
+      }
+    }
+  }
+}

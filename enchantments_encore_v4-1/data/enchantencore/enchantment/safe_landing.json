@@ -1,0 +1,36 @@
+{
+    "description": {
+    "translate": "enchantment.enchantencore.safe_landing"
+  },
+    "supported_items": "minecraft:elytra",
+    "exclusive_set": "#enchantencore:exclusive_set/elytra",
+    "weight": 10,
+    "max_level": 5,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 10
+    },
+    "max_cost": {
+      "base": 31,
+      "per_level_above_first": 10
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "enchantencore.safeland",
+          "attribute": "minecraft:safe_fall_distance",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 2.5
+          },
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+  

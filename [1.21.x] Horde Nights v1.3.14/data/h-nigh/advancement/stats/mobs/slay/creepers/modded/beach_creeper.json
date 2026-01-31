@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "creeperoverhaul:beach_creeper",
+              "nbt": "{Tags:[\"h-nigh.mob\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "h-nigh:stats/mobs/slay/creepers/modded/beach_creeper"
+  }
+}

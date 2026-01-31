@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "epic",
+                "minecraft:custom_model_data": 6548001,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_data": {
+                  "e-charm:charm_of_greed": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rrc.charm.item.gold_ingot.charm_of_greed.lore1",
+                  "fallback": "OOH SHINY!",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "translate": "rrc.charm.item.gold_ingot.charm_of_greed.lore2",
+                  "fallback": "Summons either a gold nugget, gold ingot,",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "translate": "rrc.charm.item.gold_ingot.charm_of_greed.lore3",
+                  "fallback": "or if you are lucky, a gold block, every so often!",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "rrc.charm.mechanic.description",
+                  "fallback": "Works in Mainhand & Offhand",
+                  "color": "yellow"
+                },
+                "",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rrc.charm.item.gold_ingot.charm_of_greed.name",
+                "fallback": "Charm of Greed",
+                "bold": true,
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

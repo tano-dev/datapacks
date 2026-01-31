@@ -1,0 +1,112 @@
+{
+    "description": "Early Strikes",
+    "supported_items": "minecraft:golden_sword",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:unluck": {
+                      "amplifier": 100
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:run_function",
+                "function": "mt:items/weapons/assassin_blade"
+              }
+            ]
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        },
+        {
+            "requirements": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:unluck": {
+                      "amplifier": 100,
+                      "duration": {
+                        "min": 560
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "effect": {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:item.trident.throw",
+              "volume": 2,
+              "pitch": 2
+            },
+            "enchanted": "attacker",
+            "affected": "attacker"
+          }
+      ],
+      "minecraft:location_changed": [
+        {
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "effects": {
+                    "minecraft:unluck": {
+                      "amplifier": 100,
+                      "duration": {
+                        "min": 560
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:attribute",
+                "attribute": "minecraft:attack_damage",
+                "id": "assassin_blade",
+                "amount": 1,
+                "operation": "add_multiplied_total"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

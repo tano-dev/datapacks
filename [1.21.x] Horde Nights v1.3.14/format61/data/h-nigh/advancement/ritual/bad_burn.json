@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548003
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.ritual.bad_burn.title",
+      "fallback": "Bad Burn",
+      "color": "gold",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.ritual.bad_burn.description",
+      "fallback": "Scorch a diamond on a campfire.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "h-nigh:bad_burn": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

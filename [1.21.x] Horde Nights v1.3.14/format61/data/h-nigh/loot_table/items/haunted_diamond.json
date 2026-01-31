@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    6548008
+                  ]
+                },
+                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.haunted_diamond.name\",\"fallback\":\"Haunted Diamond\",\"bold\":true,\"italic\":false,\"color\":\"dark_gray\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"rrc.ref.item.ritual.ingredient\",\"fallback\":\"Ritual Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\" \"}",
+                  "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"bold\":true,\"italic\":true,\"color\":\"#BA0000\"}"
+                ],
+                "minecraft:custom_data": {
+                  "h-nigh:haunted_diamond": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

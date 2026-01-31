@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone",
+      "components": {
+        "minecraft:custom_model_data": 6548001
+      }
+    },
+    "title": {
+      "translate": "rrc.generic.identifier.h-nigh.title",
+      "fallback": "Horde Nights - By: RRC",
+      "color": "#FF3636",
+      "bold": true
+    },
+    "description": {
+      "translate": "rrc.generic.identifier.h-nigh.description",
+      "fallback": "Every so often, a Lunar Event will force you to challenge The Horde."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "rrc:root",
+  "criteria": {
+    "rootcause": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

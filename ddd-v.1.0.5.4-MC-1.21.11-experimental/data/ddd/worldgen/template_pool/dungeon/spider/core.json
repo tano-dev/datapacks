@@ -1,0 +1,24 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/spider/core",
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/core/core_1",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/spider/core/core_1",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

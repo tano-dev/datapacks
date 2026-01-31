@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:red_bed",
+        "components": {
+          "minecraft:custom_model_data": {
+            "floats": [
+              6548001
+            ]
+          }
+        }
+      },
+      "title": {
+        "translate": "rrc.h-nigh.advancement.santas_comin.title",
+        "fallback": "Santa's Comin!",
+        "color": "gray",
+        "bold": true,
+        "italic": true
+      },
+      "description": {
+        "translate": "rrc.h-nigh.advancement.santas_comin.description",
+        "fallback": "Sleep away a Festive Moon by trying to sleep 5 separate times."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "h-nigh:so_tired_yet_restless",
+    "criteria": {
+      "h-nigh:santas_comin": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

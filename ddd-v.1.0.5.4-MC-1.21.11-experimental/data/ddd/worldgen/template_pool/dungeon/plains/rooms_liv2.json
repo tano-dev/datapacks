@@ -1,0 +1,356 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_3",
+        "processors": "ddd:wall_protected_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_4",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_5",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_6",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_archery",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_barracks",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_library",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_kitchen_plains",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_storage_plains",
+        "processors": "ddd:cracked_demolition_70_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_tomb",
+        "processors": "ddd:aging_deepslate_bricks_activator",
+        "projection": "rigid"
+      },
+      "weight": 6
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_bath",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_farm",
+        "processors": "ddd:stone_organic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_prison",
+        "processors": "ddd:cracked_demolition_70_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_medium_1",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_medium_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_medium_3",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_medium_4",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_medium_5",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_1",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_3",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_4",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_5",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_minimal_6",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_small_1",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_small_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_small_3",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_small_4",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_small_5",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_large_1",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_plains_large_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_1",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_2",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_3",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_4",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_5",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/plains/rooms_liv2/dungeon_room_extra_6",
+        "processors": "ddd:aging_stone_bricks_low",
+        "projection": "rigid"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "ddd:dungeon/plains/terminals_liv2/rooms"
+}

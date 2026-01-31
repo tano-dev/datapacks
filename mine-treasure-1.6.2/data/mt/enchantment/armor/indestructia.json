@@ -1,0 +1,39 @@
+{
+    "description": {
+      "translate": "",
+      "fallback": "Kinetic Energy Immunity"
+    },
+    "supported_items": "minecraft:elytra",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "chest"
+    ],
+    "effects": {
+      "minecraft:damage_immunity": [
+        {
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "mt:kinetic_energy",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          "effect": {}
+        }
+      ]
+    }
+  }

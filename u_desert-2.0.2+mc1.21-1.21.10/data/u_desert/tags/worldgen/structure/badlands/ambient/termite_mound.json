@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:badlands/ambient/termite_mound",
+      "required": true
+    }
+  ]
+}

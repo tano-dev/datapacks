@@ -1,0 +1,37 @@
+{
+  "description": {
+    "translate": "enchantment.enchantencore.fragility_curse"
+  },
+  "supported_items": "#enchantencore:weapons",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": {
+            "type": "minecraft:clamped",
+            "value": 75,
+            "min": 50,
+            "max": 100
+          }
+        }
+      }
+    ]
+  }
+}

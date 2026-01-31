@@ -1,0 +1,36 @@
+{
+    "name": "adventuredungeons:trialrooms/maincorridor",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:trialrooms/maincorridor/trialrooms_maincorridor1",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/maincorridor/trialrooms_maincorridor2",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:trialrooms/maincorridor/trialrooms_maincorridor3",
+          "processors": "adventuredungeons:trialrooms",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_torch"
+    },
+    "title": "Cleansing Soul",
+    "description": "Clear an area of sculk using Soul Flint and Steel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_rare_deep_dark_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ],
+              "predicates": {
+  "minecraft:custom_data": "{weapon:\"soul_steel\"}"
+      }            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk",
+                  "minecraft:sculk_catalyst",
+                  "minecraft:sculk_sensor",
+                  "minecraft:sculk_shrieker",
+                  "minecraft:sculk_vein"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "description": "Gotta Go Slow",
+    "supported_items": "minecraft:bow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "mt:arrow",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:damage_entity",
+                "damage_type": "mt:bypass_armor",
+                "min_damage": 2,
+                "max_damage": 2
+              },
+              {
+                "type": "minecraft:apply_mob_effect",
+                "to_apply": "minecraft:slowness",
+                "min_duration": 7,
+                "max_duration": 7,
+                "min_amplifier": 1,
+                "max_amplifier": 1
+              },
+              {
+                "type": "minecraft:play_sound",
+                "sound": {
+                  "sound_id": "minecraft:entity.stray.ambient",
+                  "range": 15
+                },
+                "volume": 0.5,
+                "pitch": 0.1
+              }
+            ]
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        }
+      ],
+      "minecraft:projectile_spawned": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:items/weapons/stray_bow"
+          }
+        }
+      ]
+    }
+  }

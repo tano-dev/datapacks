@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:entities/spider",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "h-nigh:gameplay/festive/generic_gift",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "random_sequence": "h-nigh:gameplay/festive/mobs/spiders/spider_gift"
+  }

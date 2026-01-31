@@ -1,0 +1,47 @@
+{
+    "description": {
+      "translate": "",
+      "fallback": "Axe Mastery"
+    },
+    "supported_items": "#minecraft:chest_armor",
+    "weight": 3,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 10
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "chest"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:axes"
+                  }
+                }
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:attribute",
+            "attribute": "minecraft:attack_damage",
+            "id": "dark_forest_chestplate",
+            "amount": 0.25,
+            "operation": "add_multiplied_total"
+          }
+        }
+      ]
+    }
+  }

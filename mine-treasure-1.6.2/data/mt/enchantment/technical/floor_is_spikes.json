@@ -1,0 +1,37 @@
+{
+    "description": {
+      "translate": ""
+    },
+    "supported_items": "minecraft:acacia_button",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "periodic_tick": 40
+            }
+          },
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:items/utility/floor_is_spikes/tick"
+          }
+        }
+      ]
+    }
+  }

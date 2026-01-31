@@ -1,0 +1,31 @@
+{
+  "description": {
+    "translate": "enchantment.enchantencore.haste"
+  },
+  "exclusive_set": "#enchantencore:exclusive_set/haste",
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 4,
+  "max_level": 3,
+  "min_cost": {
+    "base": 21,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantencore:haste"
+        }
+      }
+    ]
+  }
+}

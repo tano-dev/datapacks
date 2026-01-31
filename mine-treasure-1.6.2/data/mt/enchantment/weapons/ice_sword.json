@@ -1,0 +1,98 @@
+{
+  "description": "Icy Tip",
+  "supported_items": "minecraft:diamond_sword",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 9999,
+    "per_level_above_first": 999
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 9999
+  },
+  "anvil_cost": 9999,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:is_player_attack",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          {
+            "condition": "entity_scores",
+            "entity": "attacker",
+            "scores": {
+              "mt.hit_cooldown": {
+                "min": 10
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:snowflake"
+              },
+              "horizontal_position": {
+                "type": "entity_position",
+                "offset": 0,
+                "scale": 1
+              },
+              "vertical_position": {
+                "type": "entity_position",
+                "offset": 1,
+                "scale": 1
+              },
+              "horizontal_velocity": {
+                "base": 0,
+                "movement_scale": 0.01
+              },
+              "vertical_velocity": {
+                "base": 0,
+                "movement_scale": 0.001
+              },
+              "speed": 0.1
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:block.glass.break",
+              "volume": 0.25,
+              "pitch": 2
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "mt:bypass_armor",
+              "min_damage": 3,
+              "max_damage": 3
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mt:mechanics/hit_cooldown"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

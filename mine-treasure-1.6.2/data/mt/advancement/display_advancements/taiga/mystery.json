@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": "An Actual Decently Good Shovel?",
+    "description": "Obtain a Mystery Shovel From a Taiga Epic Treasure",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_taiga_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ],
+            "predicates": {
+  "minecraft:custom_data": "{weapon:\"taigashovel\"}"
+      }          }
+        ]
+      }
+    }
+  }
+}

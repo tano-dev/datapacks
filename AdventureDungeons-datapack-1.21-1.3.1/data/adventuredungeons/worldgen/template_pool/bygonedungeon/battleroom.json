@@ -1,0 +1,69 @@
+{
+    "name": "adventuredungeons:bygonedungeon/battleroom",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom_boiler1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom_boiler2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom_boiler_room1",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom_boiler_room2",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:bygonedungeon/battleroom/bygone_battleroom_boiler_room3",
+          "processors": "adventuredungeons:bygonedungeon",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,428 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 20,
+        "min_inclusive": 10
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:diorite",
+              "probability": 0.5
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:calcite"
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:diorite"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": 15,
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "east",
+                  "half": "top"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "east",
+                "half": "top"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "west",
+                  "half": "top"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "west",
+                "half": "top"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "north",
+                  "half": "top"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "north",
+                "half": "top"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "south",
+                  "half": "top"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "south",
+                "half": "top"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "east",
+                  "half": "bottom"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "east",
+                "half": "bottom"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "west",
+                  "half": "bottom"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "west",
+                "half": "bottom"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "north",
+                  "half": "bottom"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "north",
+                "half": "bottom"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_stairs",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "south",
+                  "half": "bottom"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_stairs",
+              "Properties": {
+                "waterlogged": "false",
+                "facing": "south",
+                "half": "bottom"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": 15,
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_slab",
+                "Properties": {
+                  "waterlogged": "false",
+                  "type": "top"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "top"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:diorite_slab",
+                "Properties": {
+                  "waterlogged": "false",
+                  "type": "bottom"
+                }
+              },
+              "probability": 0.33
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_diorite_slab",
+              "Properties": {
+                "waterlogged": "false",
+                "type": "bottom"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 0.01
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_sand",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "u_desert:desert/archeology/fossil/suspicious_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sand"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gravel",
+            "probability": 0.01
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "u_desert:desert/archeology/fossil/suspicious_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:gravel"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        }
+      ]  
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "u_desert:ground/no_sand"
+          },
+          "output_state": {
+            "Name": "minecraft:barrier"
+          }
+        }
+      ]  
+    },
+    {
+      "processor_type": "minecraft:block_ignore",
+      "blocks": [
+        {
+          "Name": "minecraft:barrier"
+        }
+      ]
+    }
+  ]
+}

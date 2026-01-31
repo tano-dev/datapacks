@@ -1,0 +1,33 @@
+{
+  "name": "u_desert:desert/ambient/oasis/dried_up/upper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/dried_up/v1/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/dried_up"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/dried_up/v2/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/dried_up"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "u_desert:desert/ambient/oasis/dried_up/v3/upper",
+        "projection": "rigid",
+        "processors": "u_desert:desert/ambient/oasis/dried_up"
+      }
+    }
+  ]
+}

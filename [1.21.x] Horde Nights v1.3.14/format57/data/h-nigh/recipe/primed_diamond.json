@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 6548001,
+      "minecraft:custom_name": "[{\"translate\":\"rrc.h-nigh.item.diamond.primed_diamond.name1\",\"fallback\":\"Primed\",\"italic\":false,\"color\":\"red\"},{\"translate\":\"rrc.h-nigh.item.diamond.primed_diamond.name2\",\"fallback\":\" Diamond\",\"italic\":false,\"color\":\"dark_aqua\"}]",
+      "minecraft:lore": [
+        "{\"translate\":\"rrc.ref.item.crafting.campfire_ingredient\",\"fallback\":\"Campfire Crafting Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
+        "{\"text\":\" \"}",
+        "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"italic\":true,\"bold\":true,\"color\":\"#BA0000\"}"
+      ],
+      "minecraft:custom_data": {
+        "h-nigh:primed_diamond": true
+      }
+    }
+  }
+}

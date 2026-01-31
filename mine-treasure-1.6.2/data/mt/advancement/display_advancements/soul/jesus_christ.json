@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "Jesus Christ",
+    "description": "Place a Necromancy",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_epic_soulvalley_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:armor_stand"
+              ],
+              "predicates": {
+                "minecraft:custom_data": {
+                  "mt.necromancy": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

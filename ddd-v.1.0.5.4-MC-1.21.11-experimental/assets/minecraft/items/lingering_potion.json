@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/lingering_potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
+    },
+    "cases": [
+      {
+        "when": "crystallized_venom",
+        "model": {
+          "type": "model",
+          "model": "item/poison/poison"
+        }
+      },
+      {
+        "when": "powerful_toxin",
+        "model": {
+          "type": "model",
+          "model": "item/poison/toxin"
+        }
+      },
+      {
+        "when": "strong_crystallized_venom",
+        "model": {
+          "type": "model",
+          "model": "item/poison/strong_poison"
+        }
+      },
+      {
+        "when": "decayed_crystallized_venom",
+        "model": {
+          "type": "model",
+          "model": "item/poison/decayed_poison"
+        }
+      }
+    ]
+  }
+}

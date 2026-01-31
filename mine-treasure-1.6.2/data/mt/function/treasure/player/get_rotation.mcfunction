@@ -1,0 +1,1 @@
+$execute as $(player) run function mt:treasure/player/facing

@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.rift_axe": {
+                "min": 10
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {},
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{weapon:\"riftaxe\"}"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "mt:player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mt:technical/hit_items/rift_axe"
+  }
+}

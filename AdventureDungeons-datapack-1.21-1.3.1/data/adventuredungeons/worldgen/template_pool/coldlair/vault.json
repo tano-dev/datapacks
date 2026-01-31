@@ -1,0 +1,26 @@
+{
+    "name": "adventuredungeons:coldlair/vault",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/vault/vault_default_trialchambers",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:coldlair/vault/vault_ominous_trialchambers",
+          "processors": "adventuredungeons:cold_lair",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

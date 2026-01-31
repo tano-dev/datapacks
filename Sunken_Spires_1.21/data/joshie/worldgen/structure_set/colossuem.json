@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/colossuem",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 295853223,
+        "separation": 32,
+        "spacing": 96
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "joshie:sunken_spires/prismarine_forge",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 7290664,
+        "separation": 34,
+        "spacing": 72
+    }
+}

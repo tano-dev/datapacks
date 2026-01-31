@@ -1,0 +1,53 @@
+{
+    "description": "Oceanic Triumph",
+    "supported_items": "minecraft:trident",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:trident_return_acceleration": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 8
+          },
+          "requirements": {
+            "condition": "minecraft:random_chance",
+            "chance": 1
+          }
+        }
+      ],
+      "minecraft:post_attack": [
+        {
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "mt:trident",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:items/weapons/oceanic_spear/hit"
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        }
+      ]
+    }
+  }

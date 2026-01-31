@@ -1,0 +1,150 @@
+{
+    "name": "adventuredungeons:ruins_desert/desert_sand",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand1",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand2",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand3",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand4",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand5",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_sand6",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_middle1",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_middle2",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_middle3",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_middle4",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_middle5",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_room1",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_room2",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_room3",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_room4",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_desert/desert_sand/ruins_desert_small_basement_sand_room5",
+          "processors": "adventuredungeons:ruins_desert",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,3 @@
+summon area_effect_cloud ~ ~0.5 ~ {custom_particle:{type:"dust",color:[0.310,1.000,0.098],scale:1},ReapplicationDelay:10,Radius:5f,RadiusPerTick:-0.01f,RadiusOnUse:-0.1f,DurationOnUse:20,Age:200,WaitTime:200,potion_contents:{custom_color:3342116,custom_effects:[{id:"minecraft:poison",amplifier:2,duration:20,show_particles:1b}]}}
+tellraw @s ["",{"text":"[","color":"gray"},{"selector":"@s","color":"white"},{"text":"] ","color":"gray"},{"text":"UGH, DEFINTIELY NOT HOLY *VOMITS*","color":"dark_green"}]
+advancement revoke @s only mt:items/food/holy_eye

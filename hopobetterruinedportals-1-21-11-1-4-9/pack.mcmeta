@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "description": [
+      { "text": "Improve", "color": "#e8dcff", "italic": false },
+      { "text": " ", "color": "#e8dcff", "italic": false },
+      { "text": "how", "color": "#d6baff", "italic": false },
+      { "text": " ", "color": "#d6baff", "italic": false },
+      { "text": "the", "color": "#c393ff", "italic": false },
+      { "text": " ", "color": "#c393ff", "italic": false },
+      { "text": "portals", "color": "#b06bff", "italic": false },
+      { "text": " ", "color": "#b06bff", "italic": false },
+      { "text": "look", "color": "#9b46ff", "italic": false },
+      { "text": " ", "color": "#9b46ff", "italic": false },
+      { "text": "in", "color": "#8530e6", "italic": false },
+      { "text": " ", "color": "#8530e6", "italic": false },
+      { "text": "your", "color": "#6e16d4", "italic": false },
+      { "text": " ", "color": "#6e16d4", "italic": false },
+      { "text": "world", "color": "#5600bf", "italic": false }
+    ],
+    "pack_format": 94,
+    "min_format": 94.1,
+    "max_format": 95
+  }
+}

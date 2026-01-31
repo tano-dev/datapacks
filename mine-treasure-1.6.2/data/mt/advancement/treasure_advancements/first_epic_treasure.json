@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Holy Moly!",
+    "description": "Find your first Epic Treasure!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mt:treasure_advancements/first_rare_treasure",
+  "criteria": {
+    "obtainchest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mt:advancement",
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.epic_count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

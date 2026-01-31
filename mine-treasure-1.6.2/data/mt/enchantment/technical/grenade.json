@@ -1,0 +1,31 @@
+{
+    "description": "2 SECOND WINDOW",
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": "#enchantable/sweeping",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 9999999,
+      "per_level_above_first": 9999999
+    },
+    "max_cost": {
+      "base": 9999999,
+      "per_level_above_first": 9999999
+    },
+    "anvil_cost": 9999999,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:projectile_spawned": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:items/weapons/grenade/get_data"
+          }
+        }
+      ]
+    }
+  }
+  

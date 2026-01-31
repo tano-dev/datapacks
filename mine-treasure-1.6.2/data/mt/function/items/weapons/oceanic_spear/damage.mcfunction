@@ -1,0 +1,1 @@
+$damage @s 13 mt:oceanic_spear by $(hexUUID)

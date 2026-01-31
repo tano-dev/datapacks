@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_sword",
+        "components": {
+          "minecraft:custom_model_data": 6548002
+        }
+      },
+      "title": {
+        "translate": "rrc.h-nigh.advancement.super_hunt.title",
+        "fallback": "Super Hunt",
+        "color": "dark_red",
+        "bold": true,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "description": {
+        "translate": "rrc.h-nigh.advancement.super_hunt.description",
+        "fallback": "Slay a member of The Horde during a Super Moon.",
+        "bold": false,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "h-nigh:blood/blood_hunt",
+    "criteria": {
+      "h-nigh:super_hunt": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

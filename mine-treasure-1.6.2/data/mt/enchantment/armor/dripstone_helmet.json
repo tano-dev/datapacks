@@ -1,0 +1,50 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Fast Drip"
+  },
+  "supported_items": "#minecraft:head_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "flags": {
+                    "is_on_ground": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:attack_speed",
+          "id": "dripstone_helmet",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

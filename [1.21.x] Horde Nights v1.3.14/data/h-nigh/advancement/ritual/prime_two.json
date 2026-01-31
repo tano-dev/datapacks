@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "components": {
+        "minecraft:custom_model_data": 6548001
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.ritual.prime_two.title",
+      "fallback": "Prime 2 Electric Boogaloo!",
+      "color": "dark_blue",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.ritual.prime_two.description",
+      "fallback": "Craft a Primed Emerald.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "h-nigh:ritual/prime",
+  "criteria": {
+    "h-nigh:prime_two": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "h-nigh:primed_emerald": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

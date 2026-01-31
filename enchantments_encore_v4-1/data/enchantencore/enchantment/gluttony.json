@@ -1,0 +1,32 @@
+{
+    "description": {
+    "translate": "enchantment.enchantencore.gluttony"
+  },
+    "exclusive_set": "#enchantencore:exclusive_set/all_tools",
+    "supported_items": "#enchantencore:all_tools",
+    "weight": 2,
+    "max_level": 5,
+    "min_cost": {
+      "base": 18,
+      "per_level_above_first": 8
+    },
+    "max_cost": {
+      "base": 51,
+      "per_level_above_first": 8
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantencore:gluttony"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+  "name": "ancient_cities:road_end",
+  "fallback": "ancient_cities:end",
+  "elements": [
+	
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:connectors/bridge_ender",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

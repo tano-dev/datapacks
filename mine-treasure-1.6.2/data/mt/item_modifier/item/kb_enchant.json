@@ -1,0 +1,48 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:knockback": {
+        "min": 0,
+        "max": 5
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "#mt:weapons"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:knockback": {
+        "min": 2,
+        "max": 10
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": "{weapon:\"hurricane_sword\"}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

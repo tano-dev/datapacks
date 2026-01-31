@@ -1,0 +1,53 @@
+{
+  "id": "h-nigh",
+  "pack": {
+    "pack_format": 48,
+    "min_format": 48,
+    "max_format": 94,
+    "supported_formats": [
+      48,
+      94
+    ],
+    "description": "Horde Nights; By RRC"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          57,
+          94
+        ],
+        "min_format": 57,
+        "max_format": 94,
+        "directory": "format57"
+      },
+      {
+        "formats": [
+          61,
+          94
+        ],
+        "min_format": 61,
+        "max_format": 94,
+        "directory": "format61"
+      },
+      {
+        "formats": [
+          71,
+          94
+        ],
+        "min_format": 71,
+        "max_format": 94,
+        "directory": "format71"
+      },
+      {
+        "formats": [
+          94,
+          94
+        ],
+        "min_format": 94,
+        "max_format": 94,
+        "directory": "format94"
+      }
+    ]
+  }
+}

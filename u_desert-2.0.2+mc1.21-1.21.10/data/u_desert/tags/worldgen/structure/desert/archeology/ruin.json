@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "u_desert:desert/archeology/ruin/house",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/pit",
+      "required": true
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/well",
+      "required": true
+    }
+  ]
+}

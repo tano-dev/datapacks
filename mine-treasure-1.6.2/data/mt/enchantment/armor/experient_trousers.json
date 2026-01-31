@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "A Walking Experience"
+  },
+  "supported_items": "#minecraft:leg_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 9999,
+    "per_level_above_first": 999
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 9999
+  },
+  "anvil_cost": 9999,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "movement": {
+                "speed": {
+                  "min": 0.2
+                }
+              },
+              "periodic_tick": 70
+            }
+          }
+        ],
+        "effect": {
+            "type": "minecraft:summon_entity",
+            "entity": "minecraft:experience_bottle",
+            "join_team": false
+          }
+      }
+    ]
+  }
+}

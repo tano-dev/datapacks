@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#mineable/pickaxe",
+    "#mineable/hoe",
+    "#mineable/pickaxe",
+    "#mineable/shovel",
+    "#mineable/axe",
+    "#replaceable",
+    "#kohara:glass",
+    "#minecraft:beds",
+    "#minecraft:all_signs",
+    "#minecraft:candles",
+    "#buttons",
+    "#incorrect_for_gold_tool",
+    "#climbable",
+    "ochre_froglight",
+    "verdant_froglight",
+    "pearlescent_froglight",
+    "glowstone",
+    "#leaves",
+    "#flowers",
+    "#coral_plants",
+    "#coral_blocks",
+    "#kohara:glass",
+    "#banners"
+  ]
+}

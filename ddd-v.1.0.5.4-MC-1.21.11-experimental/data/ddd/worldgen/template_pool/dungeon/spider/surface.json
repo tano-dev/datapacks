@@ -1,0 +1,25 @@
+{
+  "elements": [
+    {
+	  "name": "ddd:dungeon/spider/surface",
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ddd:dungeon/spider/surface/surface_1",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ddd:dungeon/spider/surface/surface_1",
+        "processors": "ddd:spider_cave",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+    
+  ],
+  "fallback": "minecraft:empty"
+}

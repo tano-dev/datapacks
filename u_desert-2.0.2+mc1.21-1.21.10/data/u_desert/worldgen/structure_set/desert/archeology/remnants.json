@@ -1,0 +1,40 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.5,
+    "spacing": 24,
+    "separation": 10,
+    "salt": 156454234
+  },
+
+  "structures": [
+    {
+      "structure": "u_desert:desert/archeology/fossil/croc",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/fossil/head",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/fossil/skull/triceratops",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/fossil/skull/tyrannosaurus",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/ruin/house",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/ruin/pit",
+      "weight": 1
+    },
+    {
+      "structure": "u_desert:desert/archeology/ruin/well",
+      "weight": 1
+    }
+  ]
+}

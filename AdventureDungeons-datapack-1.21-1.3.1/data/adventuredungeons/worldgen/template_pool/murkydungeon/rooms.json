@@ -1,0 +1,106 @@
+{
+    "name": "adventuredungeons:murkydungeon/rooms",
+    "fallback": "adventuredungeons:murkydungeon/rooms_failed",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room1",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room2",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room3",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room4",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room5",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room_filler1",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room_filler2",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room_filler3",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room_filler4",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "adventuredungeons:murkydungeon/rooms/murky_room_filler5",
+          "processors": "adventuredungeons:muddy_dungeon",
+          "override_liquid_settings": "ignore_waterlogging",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

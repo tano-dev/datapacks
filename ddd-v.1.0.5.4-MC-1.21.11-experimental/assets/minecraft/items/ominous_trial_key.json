@@ -1,0 +1,61 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/ominous_trial_key"
+    },
+    "cases": [
+      {
+        "when": "ominous_tower_key",
+        "model": {
+          "type": "model",
+          "model": "item/ominous_keys/ominous_tower_key"
+        }
+      },
+      {
+        "when": "ominous_spider_key",
+        "model": {
+          "type": "model",
+          "model": "item/ominous_keys/ominous_spider_key"
+        }
+      },
+	  {
+	    "when": "ominous_knight_key",
+	    "model": {
+	      "type": "model",
+	      "model": "item/ominous_keys/ominous_knight_key"
+	    }
+	  },
+	  {
+	    "when": "ominous_golden_key",
+	    "model": {
+	      "type": "model",
+	      "model": "item/ominous_keys/ominous_golden_key"
+	    }
+	  },
+	  {
+	    "when": "ominous_scorching_key",
+	    "model": {
+	      "type": "model",
+	      "model": "item/ominous_keys/ominous_scorching_key"
+	    }
+	  },
+	  {
+	    "when": "ominous_rotten_key",
+	    "model": {
+	      "type": "model",
+	      "model": "item/ominous_keys/ominous_rotten_key"
+	    }
+	  },
+	  {
+	    "when": "ominous_wizard_key",
+	    "model": {
+	      "type": "model",
+	      "model": "item/ominous_keys/ominous_wizard_key"
+	    }
+	  }
+    ]
+  }
+}

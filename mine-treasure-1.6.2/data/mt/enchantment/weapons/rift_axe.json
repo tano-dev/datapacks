@@ -1,0 +1,64 @@
+{
+    "description": "Soul Tearer",
+    "supported_items": "minecraft:netherite_axe",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "requirements": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            },
+          {
+            "condition": "entity_scores",
+            "entity": "attacker",
+            "scores": {
+              "mt.hit_cooldown": {
+                "min": 10
+              }
+            }
+          },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "minecraft:is_player_attack",
+                    "expected": true
+                  }
+                ]
+              }
+            }
+          ],
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "mt:items/weapons/rift_axe/hit"
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mt:mechanics/hit_cooldown"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+      ]
+    }
+  }

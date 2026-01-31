@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548006
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.ritual.low_quality_infusion.title",
+      "fallback": "Low Quality Infusion",
+      "color": "gray",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.h-nigh.advancement.ritual.low_quality_infusion.description",
+      "fallback": "Infuse a diamond with a Soul Campfire.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "h-nigh:ritual/bad_burn",
+  "criteria": {
+    "h-nigh:low_quality_infusion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

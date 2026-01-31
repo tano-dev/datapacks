@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "minecraft:red_x",
+              "skip_existing_chunks": false,
+              "search_radius": 80,
+              "destination": "u_desert:desert/archeology/lost_city"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Desert Explorer Map",
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

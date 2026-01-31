@@ -1,0 +1,7 @@
+$execute as $(name) run function mt:treasure/player/update/rare
+
+setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"mt:chests/ice/rare",CustomName:{"text":"         Rare Ice Treasure","color":"blue","bold":false,"italic":false}} destroy
+
+
+particle minecraft:snowflake ~ ~ ~ 0.5 0.5 0.5 0.1 50 force
+playsound minecraft:block.glass.break master @a[distance=..15] ~ ~ ~ 0.6 0.1 1

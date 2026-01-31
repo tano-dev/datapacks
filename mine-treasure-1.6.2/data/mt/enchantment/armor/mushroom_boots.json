@@ -1,0 +1,89 @@
+{
+  "description": {
+    "translate": "",
+    "fallback": "Hard Outside, Soft Inside"
+  },
+  "supported_items": "#minecraft:foot_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 999999,
+      "per_level_above_first": 999
+    },
+    "max_cost": {
+      "base": 999999,
+      "per_level_above_first": 9999
+    },
+    "anvil_cost": 9999,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.health": {
+                "min": 13
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:armor",
+              "id": "mushroom_boots1",
+              "amount": 0.125,
+              "operation": "add_multiplied_total"
+            },
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:armor_toughness",
+              "id": "mushroom_boots1",
+              "amount": 0.125,
+              "operation": "add_multiplied_total"
+            }
+          ]
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mt.health": {
+                "max": 12
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:armor",
+              "id": "mushroom_boots2",
+              "amount": -0.125,
+              "operation": "add_multiplied_total"
+            },
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:armor_toughness",
+              "id": "mushroom_boots2",
+              "amount": -0.125,
+              "operation": "add_multiplied_total"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

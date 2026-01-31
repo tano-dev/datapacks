@@ -1,0 +1,222 @@
+{
+    "name": "adventuredungeons:ruins_standard/standard_gravel",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel1",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel2",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel3",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel4",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel5",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel6",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel7",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_gravel8",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel1",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel2",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel3",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel4",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel5",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel6",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel7",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_medium_gravel8",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_middle1",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room1",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room2",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room3",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room4",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room5",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room6",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "adventuredungeons:ruins_standard/standard_gravel/ruins_standard_small_basement_gravel_room7",
+          "processors": "adventuredungeons:ruins_default",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

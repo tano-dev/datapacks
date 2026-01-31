@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_frozen/surfaces/dungeon_surface_frozen_2",
+        "processors": "ddd:frosting_logoration",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_frozen/surfaces/dungeon_surface_frozen_3",
+        "processors": "ddd:frosting_stone_bricks",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_frozen/surfaces/dungeon_surface_frozen_4",
+        "processors": "ddd:stone_organic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "ddd:dungeon/minor_frozen/surfaces/dungeon_surface_frozen_5",
+        "processors": "ddd:frosting_logoration",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+    
+  ],
+  "fallback": "minecraft:empty"
+}
