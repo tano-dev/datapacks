@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:coal",
           "weight": 30,
           "functions": [
             {
@@ -229,9 +229,7 @@
           "name": "minecraft:book",
           "weight": 1,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {
@@ -243,9 +241,7 @@
           "name": "minecraft:book",
           "weight": 1,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {

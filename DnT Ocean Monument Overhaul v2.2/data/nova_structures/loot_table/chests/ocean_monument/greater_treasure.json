@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:coal",
           "weight": 3,
           "functions": [
             {
@@ -333,7 +333,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
+          "name": "minecraft:copper_axe",
           "weight": 4,
           "functions": [
             {
@@ -348,7 +348,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:diamond_spear",
+          "name": "minecraft:copper_spear",
           "weight": 4,
           "functions": [
             {
@@ -363,7 +363,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
+          "name": "minecraft:copper_helmet",
           "weight": 4,
           "functions": [
             {

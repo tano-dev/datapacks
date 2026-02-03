@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"options": "#yggdrasil:equipment/item/sword",
+							"levels": {
+								"min": 20,
+								"max": 75
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

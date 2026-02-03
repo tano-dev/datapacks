@@ -58,15 +58,6 @@
           "type": "minecraft:item",
           "name": "minecraft:turtle_helmet",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         }
       ]
@@ -92,15 +83,7 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        },
-        {
-          "function": "minecraft:enchant_randomly"
-        },
-        {
-          "function": "minecraft:enchant_randomly"
-        }
+
       ]
     },
     {

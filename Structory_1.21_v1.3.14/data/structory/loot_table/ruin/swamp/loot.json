@@ -201,7 +201,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 3,
-                    "name": "minecraft:diamond",
+                    "name": "minecraft:coal",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

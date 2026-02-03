@@ -149,7 +149,7 @@
                           "entries": [
                             {
                               "type": "item",
-                              "name": "minecraft:diamond"
+                              "name": "minecraft:copper"
                             },
                             {
                               "type": "item",
@@ -352,7 +352,7 @@
                   },
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_axe"
+                    "name": "minecraft:copper_axe"
                   },
                   {
                     "type": "minecraft:item",
@@ -365,7 +365,7 @@
                   },
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_chestplate"
+                    "name": "minecraft:copper_chestplate"
                   },
                   {
                     "type": "minecraft:item",

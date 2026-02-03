@@ -232,7 +232,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
+          "name": "minecraft:diamond_sword",
           "weight": 5,
           "functions": [
             {
@@ -264,7 +264,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 3,
           "functions": [
             {
@@ -280,7 +280,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "weight": 5,
           "functions": [
             {
@@ -296,7 +296,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_leggings",
+          "name": "minecraft:diamond_leggings",
           "weight": 3,
           "functions": [
             {
@@ -308,7 +308,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_boots",
+          "name": "minecraft:diamond_boots",
           "weight": 3,
           "functions": [
             {
@@ -638,7 +638,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingot",
+          "name": "minecraft:diamond_ingot",
           "weight": 1
         }
       ]

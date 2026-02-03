@@ -55,7 +55,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:copper,
           "weight": 1,
           "functions": [
             {
@@ -243,7 +243,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_block",
+          "name": "minecraft:copper_block",
           "weight": 1,
           "functions": [
             {

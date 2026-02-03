@@ -88,9 +88,6 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        }
       ],
       "conditions": [
         {
@@ -106,9 +103,7 @@
           "type": "minecraft:item",
           "name": "minecraft:shears",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {
@@ -123,15 +118,7 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        },
-        {
-          "function": "minecraft:enchant_randomly"
-        },
-        {
-          "function": "minecraft:enchant_randomly"
-        }
+
       ],
       "conditions": [
         {
@@ -161,9 +148,6 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        }
       ]
     }
   ]

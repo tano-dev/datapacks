@@ -87,12 +87,7 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        },
-        {
-          "function": "minecraft:enchant_randomly"
-        }
+
       ],
       "conditions": [
         {

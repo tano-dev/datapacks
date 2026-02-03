@@ -200,7 +200,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:copper_pickaxe",
           "weight": 1,
           "functions": [
             {

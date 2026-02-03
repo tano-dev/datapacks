@@ -9,9 +9,7 @@
                   "name": "minecraft:book",
                   "weight": 1,
                   "functions": [
-                      {
-                          "function": "minecraft:enchant_randomly"
-                      }
+
                   ]
               },
               {
@@ -96,7 +94,7 @@
           "entries": [
               {
                   "type": "minecraft:item",
-                  "name": "minecraft:diamond",
+                  "name": "minecraft:coal",
                   "weight": 1,
                   "functions": [
                       {

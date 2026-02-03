@@ -14,7 +14,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:diamond_pickaxe"
+          "name": "minecraft:copper_pickaxe"
         },
         {
           "type": "minecraft:item",
@@ -25,7 +25,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:diamond_sword"
+          "name": "minecraft:copper_sword"
         },
 		{
           "type": "minecraft:item",
@@ -36,7 +36,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:diamond_spear"
+          "name": "minecraft:copper_spear"
         },
         {
           "type": "minecraft:item",
@@ -47,7 +47,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:diamond_axe"
+          "name": "minecraft:copper_axe"
         },
         {
           "type": "minecraft:item",

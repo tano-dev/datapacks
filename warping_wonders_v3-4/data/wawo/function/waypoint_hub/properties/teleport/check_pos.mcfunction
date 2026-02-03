@@ -1,0 +1,17 @@
+$execute in $(dimension) positioned $(x) $(y) $(z) run forceload add ~ ~
+$execute in $(dimension) positioned $(x) $(y) $(z) unless block ~1 ~-1 ~ #wawo:unsafe_to_tp if block ~1 ~ ~ #wawo:safe_to_tp if block ~1 ~1 ~ #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~1 ~.5 ~",valid_pos_found:1b}
+
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~-1 ~-1 ~ #wawo:unsafe_to_tp if block ~-1 ~ ~ #wawo:safe_to_tp if block ~-1 ~1 ~ #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~-1 ~.5 ~",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~ ~-1 ~-1 #wawo:unsafe_to_tp if block ~ ~ ~-1 #wawo:safe_to_tp if block ~ ~1 ~-1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~ ~.5 ~-1",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~ ~-1 ~1 #wawo:unsafe_to_tp if block ~ ~ ~1 #wawo:safe_to_tp if block ~ ~1 ~1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~ ~.5 ~1",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~1 ~-1 ~-1 #wawo:unsafe_to_tp if block ~1 ~ ~-1 #wawo:safe_to_tp if block ~1 ~1 ~-1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~1 ~.5 ~-1",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~1 ~-1 ~1 #wawo:unsafe_to_tp if block ~1 ~ ~1 #wawo:safe_to_tp if block ~1 ~1 ~1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~1 ~.5 ~1",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~-1 ~-1 ~-1 #wawo:unsafe_to_tp if block ~-1 ~ ~-1 #wawo:safe_to_tp if block ~-1 ~1 ~-1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~-1 ~.5 ~-1",valid_pos_found:1b}
+$execute unless data storage eden:temp waypoint.teleport{valid_pos_found:1b} in $(dimension) positioned $(x) $(y) $(z) unless block ~-1 ~-1 ~1 #wawo:unsafe_to_tp if block ~-1 ~ ~1 #wawo:safe_to_tp if block ~-1 ~1 ~1 #wawo:safe_to_tp run data modify storage eden:temp waypoint.teleport merge value {relative_coords:"~-1 ~.5 ~1",valid_pos_found:1b}
+
+execute if data storage eden:temp waypoint.teleport{valid_pos_found:1b} run return run function wawo:waypoint_hub/properties/teleport/exec_tp with storage eden:temp waypoint.teleport
+
+playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .5 2
+tellraw @s [{"bold":false,"color":"dark_purple","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"translate":"message.warping_wonders.waypoint.invalid"}]
+$execute in $(dimension) positioned $(x) $(y) $(z) run forceload remove ~ ~
+data remove storage eden:temp waypoint.teleport

@@ -237,9 +237,6 @@
         }
       ],
       "functions": [
-        {
-          "function": "minecraft:enchant_randomly"
-        }
       ]
     }
   ]

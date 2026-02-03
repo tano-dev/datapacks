@@ -78,11 +78,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "netherite_scrap",
-          "weight": 2
         }
       ]
     },

@@ -122,18 +122,14 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ],
           "conditions": [
             {
@@ -146,9 +142,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ],
           "conditions": [
             {

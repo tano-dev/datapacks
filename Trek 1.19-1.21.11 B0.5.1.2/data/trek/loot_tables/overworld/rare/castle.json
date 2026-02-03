@@ -272,10 +272,7 @@
                     "name": "minecraft:book",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly",
-                            "conditions": []
-                        }
+
                     ]
                 },
                 {
@@ -321,9 +318,7 @@
                     "name": "minecraft:iron_helmet",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
+
                     ]
                 },
                 {
@@ -340,9 +335,7 @@
                     "name": "minecraft:iron_chestplate",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
+
                     ]
                 },
                 {
@@ -359,9 +352,7 @@
                     "name": "minecraft:iron_leggings",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
+
                     ]
                 },
                 {
@@ -378,9 +369,7 @@
                     "name": "minecraft:iron_boots",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
+
                     ]
                 },
                 {

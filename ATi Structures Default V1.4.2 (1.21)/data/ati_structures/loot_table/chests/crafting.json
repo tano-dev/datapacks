@@ -70,9 +70,6 @@
           "name": "minecraft:golden_pickaxe",
           "weight": 5,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         },
         {
@@ -80,9 +77,6 @@
           "name": "minecraft:stone_pickaxe",
           "weight": 5,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         },
         {
@@ -90,9 +84,6 @@
           "name": "minecraft:iron_hoe",
           "weight": 5,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         },
         {
@@ -100,9 +91,6 @@
           "name": "minecraft:shears",
           "weight": 5,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         },
         {
@@ -303,9 +291,6 @@
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ]
         },
         {
@@ -336,51 +321,6 @@
             {
               "function": "minecraft:set_potion",
               "id": "minecraft:long_regeneration"
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.2
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "conditions": []
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_hoe",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ]
         }

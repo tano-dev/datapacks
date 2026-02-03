@@ -229,9 +229,7 @@
           "name": "minecraft:book",
           "weight": 1,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {
@@ -243,9 +241,7 @@
           "name": "minecraft:book",
           "weight": 1,
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
+
           ]
         },
         {

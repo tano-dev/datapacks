@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
+          "name": "minecraft:copper_helmet",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
+          "name": "minecraft:copper_chestplate",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -60,7 +60,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
+          "name": "minecraft:copper_leggings",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_boots",
+          "name": "minecraft:copper_boots",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -115,7 +115,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:copper_sword",
           "functions": [
             {
               "function": "minecraft:set_enchantments",

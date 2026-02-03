@@ -28,7 +28,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
+          "name": "minecraft:copper_axe",
           "functions": [
             {
               "add": false,

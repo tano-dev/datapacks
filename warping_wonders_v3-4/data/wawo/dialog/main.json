@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:multi_action",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:tooltip_display": {
+          "hide_tooltip": true
+        }
+      }
+    },
+    "description": {
+      "translate": "menu.warping_wonders.main.description"
+    }
+  },
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.warping_wonders.main.title.external"
+  },
+  "title": {
+    "translate": "menu.warping_wonders.main.title"
+  },
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate": "mco.selectServer.close"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "item.minecraft.clock"
+      },
+      "tooltip": {
+        "translate": "option.warping_wonders.clock.tooltip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function wawo:dialog/dynamic/clock with storage eden:settings warping_wonders.clock"
+      }
+    },
+    {
+      "label": {
+        "translate": "item.minecraft.compass"
+      },
+      "tooltip": {
+        "translate": "option.warping_wonders.compass.tooltip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function wawo:dialog/dynamic/compass with storage eden:settings warping_wonders.compass"
+      }
+    },
+    {
+      "label": {
+        "translate": "item.minecraft.recovery_compass"
+      },
+      "tooltip": {
+        "translate": "option.warping_wonders.recovery_compass.tooltip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function wawo:dialog/dynamic/recovery_compass with storage eden:settings warping_wonders.recovery_compass"
+      }
+    },
+    {
+      "label": {
+        "translate": "item.warping_wonders.portal_horn"
+      },
+      "tooltip": {
+        "translate": "option.warping_wonders.portal_horn.tooltip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function wawo:dialog/dynamic/portal_horn with storage eden:settings warping_wonders.portal_horn"
+      }
+    },
+    {
+      "label": {
+        "translate": "item.warping_wonders.waypoint_hub"
+      },
+      "tooltip": {
+        "translate": "option.warping_wonders.waypoint_hub.tooltip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function wawo:dialog/dynamic/waypoint_hub with storage eden:settings warping_wonders.waypoint_hub"
+      }
+    },
+    {
+      "label": {
+        "translate": "option.warping_wonders.restore.title",
+        "color": "gray"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "wawo:restore_default"
+      }
+    }
+  ]
+}

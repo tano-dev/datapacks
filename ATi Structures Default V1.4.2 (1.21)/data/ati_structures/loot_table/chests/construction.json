@@ -227,13 +227,6 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "conditions": []
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ],
           "conditions": [
             {
@@ -246,12 +239,6 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
-            }
           ],
           "conditions": [
             {
@@ -264,15 +251,6 @@
           "type": "minecraft:item",
           "name": "minecraft:fishing_rod",
           "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            }
           ],
           "conditions": [
             {

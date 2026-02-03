@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "menu.warping_wonders.restore.description"
+      },
+      "width": 1024
+    }
+  ],
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.warping_wonders.restore.title"
+  },
+  "title": {
+    "translate": "menu.warping_wonders.main.title"
+  },
+  "yes": {
+    "label": {
+      "translate": "option.warping_wonders.confirm"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "function wawo:dialog/command_template/restore_default"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "option.warping_wonders.back"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "wawo:main"
+    }
+  }
+}

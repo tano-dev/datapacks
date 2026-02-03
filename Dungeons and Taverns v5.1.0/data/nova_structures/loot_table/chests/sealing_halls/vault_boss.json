@@ -105,8 +105,8 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
-          "weight": 7,
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -137,8 +137,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_helmet",
-          "weight": 5,
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -153,8 +153,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_chestplate",
-          "weight": 7,
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -169,8 +169,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_leggings",
-          "weight": 5,
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -185,8 +185,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_boots",
-          "weight": 5,
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",

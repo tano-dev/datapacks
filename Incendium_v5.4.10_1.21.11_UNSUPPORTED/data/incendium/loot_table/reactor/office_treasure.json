@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "diamond",
+                    "name": "copper",
                     "weight": 4,
                     "functions": [
                         {
@@ -157,7 +157,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "diamond_axe",
+                    "name": "copper_axe",
                     "weight": 2,
                     "functions": [
                         {
@@ -179,7 +179,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "diamond_sword",
+                    "name": "copper_sword",
                     "weight": 2,
                     "functions": [
                         {
@@ -198,21 +198,6 @@
                             "options": "#minecraft:on_random_loot"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "ancient_debris",
-                    "weight": 4
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "netherite_scrap",
-                    "weight": 4
                 }
             ]
         }
