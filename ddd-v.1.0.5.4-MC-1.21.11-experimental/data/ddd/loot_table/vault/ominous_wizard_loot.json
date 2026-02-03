@@ -38,30 +38,30 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:instant_health",
-                      "amplifier": 5
+                      "amplifier": 1
                     },
                     {
                       "id": "minecraft:regeneration",
-                      "duration": 800
+                      "duration": 120
                     },
                     {
                       "id": "minecraft:strength",
-                      "amplifier": 3,
-                      "duration": 4000
+                      "amplifier": 1,
+                      "duration": 300
                     },
                     {
                       "id": "minecraft:speed",
                       "amplifier": 1,
-                      "duration": 4000
+                      "duration": 300
                     },
                     {
                       "id": "minecraft:haste",
                       "amplifier": 1,
-                      "duration": 4000
+                      "duration": 300
                     },
                     {
                       "id": "minecraft:resistance",
-                      "duration": 2400
+                      "duration": 300
                     }
                   ]
                 }

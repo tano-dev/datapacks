@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper",
+          "name": "minecraft:copper_ingot",
           "weight": 4,
           "functions": [
             {

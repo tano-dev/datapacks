@@ -186,7 +186,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper"
+          "name": "minecraft:copper_ingot"
         },
         {
           "type": "minecraft:item",

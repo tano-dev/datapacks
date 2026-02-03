@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "copper",
+                    "name": "copper_ingot",
                     "weight": 4,
                     "functions": [
                         {

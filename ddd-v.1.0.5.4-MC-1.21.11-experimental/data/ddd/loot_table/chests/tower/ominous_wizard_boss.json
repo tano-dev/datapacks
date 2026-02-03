@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_block",
+          "name": "minecraft:diamond_block",
           "weight": 1,
           "functions": [
             {
@@ -148,7 +148,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper",
+          "name": "minecraft:iron_ingot",
           "weight": 3,
           "functions": [
             {
@@ -313,7 +313,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_pickaxe",
+          "name": "minecraft:diamond_pickaxe",
           "weight": 4,
           "functions": [
             {
@@ -336,7 +336,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coppersword",
+          "name": "minecraft:diamond_sword",
           "weight": 4,
           "functions": [
             {
@@ -359,7 +359,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_axe",
+          "name": "minecraft:diamond_axe",
           "weight": 4,
           "functions": [
             {
@@ -382,7 +382,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_shovel",
+          "name": "minecraft:diamond_shovel",
           "weight": 4,
           "functions": [
             {
@@ -405,7 +405,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 4,
           "functions": [
             {
@@ -428,7 +428,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "weight": 4,
           "functions": [
             {
@@ -451,7 +451,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:diamond_leggings",
           "weight": 4,
           "functions": [
             {
@@ -474,7 +474,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:diamond_boots",
           "weight": 4,
           "functions": [
             {
@@ -497,7 +497,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
+          "name": "minecraft:diamond_horse_armor",
           "weight": 4
         }
       ]

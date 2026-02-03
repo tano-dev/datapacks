@@ -228,7 +228,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper",
+          "name": "minecraft:iron_ingot",
           "weight": 3,
           "functions": [
             {
@@ -258,7 +258,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 4,
           "functions": [
             {
@@ -510,7 +510,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coppershovel",
+          "name": "minecraft:copper_shovel",
           "weight": 4,
           "functions": [
             {
@@ -625,7 +625,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copperlmet",
+          "name": "minecraft:copper_helmet",
           "weight": 4,
           "functions": [
             {
@@ -648,7 +648,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coppertplate",
+          "name": "minecraft:copper_chestplate",
           "weight": 4,
           "functions": [
             {

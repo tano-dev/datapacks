@@ -638,7 +638,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:diamond_ingot",
+          "name": "minecraft:diamond",
           "weight": 1
         }
       ]

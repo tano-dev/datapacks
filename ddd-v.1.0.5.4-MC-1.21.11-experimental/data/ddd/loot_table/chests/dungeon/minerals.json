@@ -55,21 +55,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper,
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 20
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
           "weight": 1,
           "functions": [

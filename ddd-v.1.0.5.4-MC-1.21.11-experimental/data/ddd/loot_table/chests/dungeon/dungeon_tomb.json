@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copperhelmet",
+          "name": "minecraft:copper_helmet",
           "weight": 1,
           "functions": [
             {
@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copperchestplate",
+          "name": "minecraft:copper_chestplate",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -65,7 +65,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copperleggings",
+          "name": "minecraft:copper_leggings",
           "weight": 1,
           "functions": [
             {
@@ -94,7 +94,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copperboots",
+          "name": "minecraft:copper_boots",
           "weight": 1,
           "functions": [
             {
@@ -129,7 +129,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper",
+          "name": "minecraft:copper_ingot",
           "weight": 1,
           "functions": [
             {

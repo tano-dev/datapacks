@@ -181,7 +181,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:rooted_dirt",
           "weight": 5,
           "functions": [
             {

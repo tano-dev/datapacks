@@ -51,10 +51,6 @@
         },
         {
           "type": "item",
-          "weight": 4
-        },
-        {
-          "type": "item",
           "name": "skull_banner_pattern",
           "weight": 2
         },

@@ -20,7 +20,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:copper",
+          "name": "minecraft:copper_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
