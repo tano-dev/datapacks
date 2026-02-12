@@ -2,7 +2,8 @@
   "anvil_cost": 2,
   "description": {
     "translate": "enchantment.dnt.aerials_bane",
-    "fallback": "Aerial's Bane"
+    "fallback": "Aerial's Bane",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:damage": [

@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:pirate_savanna_outpost",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:pirate_savanna_outpost",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

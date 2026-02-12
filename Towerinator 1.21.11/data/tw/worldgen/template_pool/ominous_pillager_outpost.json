@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:ominous_outpost",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:ominous_pillager_outpost",
+        "processors": "tw:preserve_cobblestone"
+        }
+      }
+    ]
+  }
+  

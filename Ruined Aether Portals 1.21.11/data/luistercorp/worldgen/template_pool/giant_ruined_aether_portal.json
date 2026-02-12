@@ -1,0 +1,51 @@
+{
+	"name": "luistercorp:ruined_aether_portal",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/giant_ruined_aether_portal_1",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/giant_ruined_aether_portal_2",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/giant_ruined_aether_portal_3",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/giant_ruined_aether_portal_4",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/giant_ruined_aether_portal_5",
+				"processors": "empty"
+			}
+		}
+	]
+}

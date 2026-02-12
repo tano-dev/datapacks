@@ -1,0 +1,2 @@
+scoreboard players reset netherweather.failsafe netherweather.loaded
+function netherweather:technical/weather/main

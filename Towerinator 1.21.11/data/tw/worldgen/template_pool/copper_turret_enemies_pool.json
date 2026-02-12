@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:copper_turret_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 9,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:copper_turret_enemies_vindicator",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 9,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:copper_turret_enemies_pillager",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

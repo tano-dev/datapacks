@@ -43,11 +43,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:tooltip_display": {
-									"hidden_components": [
-										"minecraft:unbreakable"
-									]
-								},
 								"minecraft:custom_data": {
 									"yggdrasil": {
 										"id": "yggdrasil.asgard.treasure.gungnir"

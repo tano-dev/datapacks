@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:brewing_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:brewing_tower",
+        "processors": "tw:preserve_deepslate"
+        }
+      }
+    ]
+  }
+  

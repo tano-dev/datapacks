@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:pale_garden/small_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 17007007,
+      "frequency": 0.15,
+      "spacing": 20,
+      "separation": 15
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:pirate_savanna_outpost",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2469710,
+      "frequency": 0.45,
+      "spacing": 36,
+      "separation": 26,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 9,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

@@ -10,10 +10,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {},
-                "tooltip_display": {
-                  "hidden_components": ["unbreakable"]
-                },
                 "minecraft:item_model": "stellarity:kaleidoscope",
                 "minecraft:custom_data": {
                   "stellarity:item": "kaleidoscope"

@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:cherry_monastery",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 175500,
+      "frequency": 0.96,
+      "spacing": 26,
+      "separation": 20,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default"
+    }
+  }
+  

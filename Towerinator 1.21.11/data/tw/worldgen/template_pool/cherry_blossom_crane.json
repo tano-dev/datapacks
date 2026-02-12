@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:cherry_blossom_crane",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:cherry_blossom_crane",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

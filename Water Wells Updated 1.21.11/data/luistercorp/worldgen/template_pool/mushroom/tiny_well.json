@@ -1,0 +1,24 @@
+{
+    "name": "luistercorp:champivaca/pozo_escavadora_champivaca",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:champivaca/pozo_escavadora_champivaca",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:champivaca/pozo_escavadora_champivaca_v2",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

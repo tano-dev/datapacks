@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_sandstone",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.desert_mansion.title",
+      "fallback": "Desert Plains Plundered"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.desert_mansion.description",
+      "fallback": "Find the Desert Pillager Mansion"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "desert_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:desert_mansion"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

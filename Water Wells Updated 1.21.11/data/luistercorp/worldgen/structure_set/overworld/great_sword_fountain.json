@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:overworld/great_sword_fountain",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 130020020,
+      "frequency": 0.10,
+      "spacing": 37,
+      "separation": 29
+    }
+  }
+  

@@ -51,7 +51,7 @@
               "enchantments": {
                 "minecraft:protection": {
                   "min": 1,
-                  "max": 6
+                  "max": 4
                 },
                 "minecraft:mending": {
                   "min": 0,
@@ -59,7 +59,7 @@
                 },
                 "minecraft:unbreaking": {
                   "min": 1,
-                  "max": 10
+                  "max": 5
                 }
               }
             },

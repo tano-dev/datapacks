@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:jungle_watchtower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 7159324,
+      "frequency": 0.47,
+      "spacing": 28,
+      "separation": 26,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 6,
+        "other_set": "jungle_temples"
+      }
+    }
+  }
+  

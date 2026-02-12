@@ -1,6 +1,7 @@
 {
     "description": {
-    "translate": "enchantment.enchantencore.end_speed"
+    "translate": "enchantment.enchantencore.end_speed",
+    "color": "aqua"
   },
     "exclusive_set": "#enchantencore:exclusive_set/boots",
     "supported_items": "#minecraft:enchantable/foot_armor",

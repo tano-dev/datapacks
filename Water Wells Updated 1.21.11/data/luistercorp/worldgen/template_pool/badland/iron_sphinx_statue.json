@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:meceta/estatua_esfinge_meceta_hierro",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:meceta/estatua_esfinge_meceta_hierro",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:roble_oscuro/pozo_mediano_roble_oscuro",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:roble_oscuro/pozo_mediano_roble_oscuro",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:basalt_deltas",
+		"minecraft:warped_forest",
+		"minecraft:nether_wastes",
+		"minecraft:crimson_forest",
+		"minecraft:soul_sand_valley"
+	]
+}

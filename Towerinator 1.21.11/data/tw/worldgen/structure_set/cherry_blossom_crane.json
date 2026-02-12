@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "tw:cherry_blossom_crane",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 12307810,
+      "frequency": 0.25,
+      "spacing": 34,
+      "separation": 28,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default"
+    }
+  }
+  

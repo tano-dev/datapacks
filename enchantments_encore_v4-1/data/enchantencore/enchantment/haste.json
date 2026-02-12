@@ -1,17 +1,18 @@
 {
   "description": {
-    "translate": "enchantment.enchantencore.haste"
+    "translate": "enchantment.enchantencore.haste",
+    "color": "aqua"
   },
   "exclusive_set": "#enchantencore:exclusive_set/haste",
   "supported_items": "#minecraft:enchantable/mining",
   "weight": 4,
   "max_level": 3,
   "min_cost": {
-    "base": 21,
+    "base": 31,
     "per_level_above_first": 8
   },
   "max_cost": {
-    "base": 51,
+    "base": 61,
     "per_level_above_first": 8
   },
   "anvil_cost": 1,

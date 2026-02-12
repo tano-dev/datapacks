@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_wood",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.cherry_monastery.title",
+      "fallback": "Spiritual Retreat"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.cherry_monastery.description",
+      "fallback": "Find the Cherry Monastery"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "cherry_monastery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:cherry_monastery"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

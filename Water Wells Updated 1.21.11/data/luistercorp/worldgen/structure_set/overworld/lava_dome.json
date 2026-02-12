@@ -1,0 +1,17 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:overworld/lava_dome",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 130010010,
+      "frequency": 0.15,
+      "spacing": 32,
+      "separation": 27
+    }
+  }

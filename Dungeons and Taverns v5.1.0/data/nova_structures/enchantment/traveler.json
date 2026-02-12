@@ -2,7 +2,8 @@
   "anvil_cost": 8,
   "description": {
     "translate": "enchantment.dnt.traveler",
-    "fallback": "Traveler"
+    "fallback": "Traveler",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:location_changed": [

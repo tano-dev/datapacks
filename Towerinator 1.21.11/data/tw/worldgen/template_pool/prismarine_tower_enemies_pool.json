@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:prismarine_tower_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:prismarine_tower_enemies_skeleton",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:prismarine_tower_enemies_zombie",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

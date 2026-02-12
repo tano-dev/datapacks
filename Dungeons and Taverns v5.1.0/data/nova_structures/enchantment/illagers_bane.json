@@ -2,7 +2,8 @@
   "anvil_cost": 2,
   "description": {
     "translate": "enchantment.dnt.illagers_bane",
-    "fallback": "Illagers Bane"
+    "fallback": "Illagers Bane",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:damage": [

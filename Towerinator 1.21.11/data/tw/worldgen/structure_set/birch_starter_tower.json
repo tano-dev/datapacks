@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:birch_starter_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2307810,
+      "frequency": 0.31,
+      "spacing": 50,
+      "separation": 43,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 5,
+        "other_set": "minecraft:pillager_outposts"
+      }
+    }
+  }
+  

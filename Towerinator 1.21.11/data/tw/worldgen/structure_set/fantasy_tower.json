@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "tw:fantasy_tower",
+        "weight": 10
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 9703481,
+      "frequency": 0.42,
+      "spacing": 32,
+      "separation": 25,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default"
+    }
+  }
+  

@@ -1,7 +1,8 @@
 {
   "description": {
     "translate": "enchantment.dnt.wither_coated",
-    "fallback": "Wither Coated"
+    "fallback": "Wither Coated",
+    "color": "aqua"
   },
   "exclusive_set": "#nova_structures:exclusive_set/weapon_aspect",
   "supported_items": "#nova_structures:enchantable/wither_coated",

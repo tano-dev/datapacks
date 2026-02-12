@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+	"leather_helmet",
+	"iron_helmet",
+	"golden_helmet",
+	"diamond_helmet",
+	"netherite_helmet",
+	"turtle_helmet",
+	"player_head",
+	"creeper_head",
+	"piglin_head",
+	"dragon_head",
+	"zombie_head",
+	"skeleton_skull",
+	"wither_skeleton_skull",
+	"carved_pumpkin",
+	"magma_cream",
+	"poisonous_potato",
+	"copper_helmet"
+  ]
+}

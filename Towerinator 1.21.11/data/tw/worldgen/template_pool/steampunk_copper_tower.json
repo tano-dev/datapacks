@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:steampunk_copper_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:steampunk_copper_tower",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

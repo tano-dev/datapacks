@@ -1,0 +1,19 @@
+{
+    "structures": [
+        {
+            "structure": "luistercorp:giant_ruined_aether_portal",
+            "weight": 1
+        },
+		{
+            "structure": "luistercorp:giant_ruined_aether_portal_ocean",
+            "weight": 1
+        }
+    ],
+    "placement": {
+		"type": "random_spread",
+        "frequency": 0.15,
+        "salt": 984184,
+        "spacing": 83,
+        "separation": 44
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:dark_forest/mini_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 16005005,
+      "frequency": 0.21,
+      "spacing": 25,
+      "separation": 20
+    }
+  }
+  

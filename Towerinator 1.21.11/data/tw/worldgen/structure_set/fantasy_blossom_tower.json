@@ -1,0 +1,21 @@
+{
+    "structures": [
+      {
+        "structure": "tw:fantasy_blossom_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1203782,
+      "frequency": 0.45,
+      "spacing": 33,
+      "separation": 25,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "tw:cherry_blossom_watchtower"
+      }
+    }
+  }

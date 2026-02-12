@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:sandstone_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 76824691,
+      "frequency": 0.68,
+      "spacing": 38,
+      "separation": 32,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "luistercorp:desert_mansion"
+      }
+    }
+  }
+  

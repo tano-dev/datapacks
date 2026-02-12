@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:birch/intermediate_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1003003,
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.15,
+      "spacing": 25,
+      "separation": 20
+    }
+  }
+  

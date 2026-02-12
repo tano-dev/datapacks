@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -134,7 +134,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -256,7 +256,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -378,7 +378,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -500,7 +500,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -622,7 +622,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -744,7 +744,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -866,7 +866,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -988,7 +988,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1110,7 +1110,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1232,7 +1232,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1354,7 +1354,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1476,7 +1476,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1598,7 +1598,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1720,7 +1720,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1842,7 +1842,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -1964,7 +1964,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2086,7 +2086,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2208,7 +2208,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2330,7 +2330,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2452,7 +2452,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2574,7 +2574,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2696,7 +2696,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",
@@ -2818,7 +2818,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Assassin's Blade",
                   "color": "gold",

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+	"light",
+	"snow",
+	"snow_block",
+	"powder_snow",
+	"powder_snow_cauldron",
+	"ice",
+	"packed_ice",
+	"blue_ice",
+	"water",
+	"bubble_column",
+	"bedrock"
+  ]
+}

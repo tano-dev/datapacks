@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:pumpkin_farmhouse",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 51037810,
+      "frequency": 0.51,
+      "spacing": 49,
+      "separation": 35,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 5,
+        "other_set": "minecraft:swamp_huts"
+      }
+    }
+  }
+  

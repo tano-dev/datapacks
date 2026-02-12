@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:dragonfly",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 9856550,
+      "frequency": 0.35,
+      "spacing": 30,
+      "separation": 20
+    }
+  }
+  

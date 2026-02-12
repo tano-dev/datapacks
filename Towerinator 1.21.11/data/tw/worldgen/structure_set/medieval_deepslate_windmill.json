@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:medieval_deepslate_windmill",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 3078945,
+      "frequency": 0.27,
+      "spacing": 58,
+      "separation": 46,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 10,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

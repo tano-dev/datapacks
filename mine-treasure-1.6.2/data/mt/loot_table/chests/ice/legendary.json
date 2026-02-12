@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {},
+                
                 "minecraft:repair_cost": 9999,
                 "minecraft:custom_name": {
                   "text": "Stray Bow",

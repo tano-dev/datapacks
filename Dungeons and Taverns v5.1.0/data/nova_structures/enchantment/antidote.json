@@ -2,7 +2,8 @@
   "anvil_cost": 8,
   "description": {
     "translate": "enchantment.dnt.antidote",
-    "fallback": "Antidote"
+    "fallback": "Antidote",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:damage_immunity": [

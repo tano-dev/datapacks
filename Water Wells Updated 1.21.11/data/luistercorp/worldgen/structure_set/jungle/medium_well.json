@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:jungle/medium_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 9004004,
+      "frequency": 0.1,
+      "spacing": 30,
+      "separation": 20
+    }
+  }
+  

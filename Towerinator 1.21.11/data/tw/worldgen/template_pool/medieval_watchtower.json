@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:medieval_watchtower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:medieval_watchtower",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:medieval_watchtower_2",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

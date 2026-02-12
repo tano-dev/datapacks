@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Installed Datapacks",
+		"description": "",
+		"icon": {
+			"id": "knowledge_book"
+		},
+		"background": "block/black_concrete_powder",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "location"
+		}
+	}
+}

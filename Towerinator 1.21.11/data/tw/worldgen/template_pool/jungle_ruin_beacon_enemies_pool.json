@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:jungle_ruin_beacon_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:jungle_ruin_beacon_enemies_bogged",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:jungle_ruin_beacon_enemies_zombie",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

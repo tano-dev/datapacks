@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:strawberry_farmhouse",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:strawberry_farmhouse",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:vault_illager",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 154560,
+      "frequency": 0.25,
+      "spacing": 38,
+      "separation": 27
+    }
+  }
+  

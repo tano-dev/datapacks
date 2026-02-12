@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:post_apocalyptic_watchtower_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:post_apocalyptic_watchtower_enemies_pillager",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:post_apocalyptic_watchtower_enemies_vindicator",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

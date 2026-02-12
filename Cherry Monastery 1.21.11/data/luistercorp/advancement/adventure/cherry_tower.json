@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_cherry_log",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.cherry_tower.title",
+      "fallback": "Tower of Petals"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.cherry_tower.description",
+      "fallback": "Find the Cherry Tower"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "luistercorp:adventure/cherry_monastery",
+  "criteria": {
+    "cherry_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:cherry_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

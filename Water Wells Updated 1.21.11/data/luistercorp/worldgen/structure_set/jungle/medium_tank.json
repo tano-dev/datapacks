@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:jungle/medium_tank",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 9008008,
+      "frequency": 0.15,
+      "spacing": 30,
+      "separation": 25
+    }
+  }
+  

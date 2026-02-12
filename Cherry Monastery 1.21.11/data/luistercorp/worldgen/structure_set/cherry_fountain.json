@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:cherry_fountain",
+        "weight": 2
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2413500,
+      "frequency": 0.46,
+      "spacing": 18,
+      "separation": 13,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 2,
+        "other_set": "luistercorp:cherry_monastery"
+      }
+    }
+  }
+  

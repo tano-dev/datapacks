@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:camel_farmstead",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2469710,
+      "frequency": 0.55,
+      "spacing": 33,
+      "separation": 26,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

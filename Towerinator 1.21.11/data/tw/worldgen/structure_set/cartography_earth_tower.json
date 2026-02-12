@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:cartography_earth_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2641801,
+      "frequency": 0.22,
+      "spacing": 38,
+      "separation": 21,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 12,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

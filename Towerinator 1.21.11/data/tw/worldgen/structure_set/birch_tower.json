@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "tw:birch_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 4539250,
+      "frequency": 0.60,
+      "spacing": 38,
+      "separation": 29,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default"
+    }
+  }
+  

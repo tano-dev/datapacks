@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:ice/medium_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 7003003,
+      "frequency": 0.15,
+      "spacing": 30,
+      "separation": 20
+    }
+  }
+  

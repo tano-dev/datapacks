@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_badlands",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:husk",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ]
+    },
+    "creature": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:armadillo",
+          "weight": 50,
+          "minCount": 2,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:wolf",
+          "weight": 70,
+          "minCount": 2,
+          "maxCount": 3
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_box",
+  "start_pool": "luistercorp:badland/diamond_sphinx_statue",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 20,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

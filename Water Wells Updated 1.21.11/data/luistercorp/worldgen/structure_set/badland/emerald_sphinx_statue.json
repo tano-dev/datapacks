@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:badland/emerald_sphinx_statue",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 11002002,
+      "frequency": 0.25,
+      "spacing": 30,
+      "separation": 22
+    }
+  }
+  

@@ -325,11 +325,11 @@
                 },
                 "minecraft:efficiency": {
                   "min": 0,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:unbreaking": {
                   "min": 0,
-                  "max": 4
+                  "max": 3
                 },
                 "minecraft:mending": {
                   "min": 0,

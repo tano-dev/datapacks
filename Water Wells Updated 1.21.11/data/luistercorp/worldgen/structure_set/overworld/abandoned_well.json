@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:overworld/abandoned_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.12,
+      "salt": 78050050,
+      "spacing": 47,
+      "separation": 38
+    }
+  }
+  

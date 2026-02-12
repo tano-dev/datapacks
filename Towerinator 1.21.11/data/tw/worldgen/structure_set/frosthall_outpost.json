@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:frosthall_outpost",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 4379105,
+      "frequency": 0.39,
+      "spacing": 36,
+      "separation": 29,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

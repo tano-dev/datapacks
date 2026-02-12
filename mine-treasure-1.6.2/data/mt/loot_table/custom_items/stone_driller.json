@@ -12,16 +12,14 @@
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
                   "minecraft:efficiency": {
-                    "min": 7,
-                    "max": 9
+                    "min": 5,
+                    "max": 7
                   }
                 }
               },
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:repair_cost": 99999,
-                  "minecraft:unbreakable": {},
                   "minecraft:custom_name": {
                     "text": "Stone Driller",
                     "color": "gold",

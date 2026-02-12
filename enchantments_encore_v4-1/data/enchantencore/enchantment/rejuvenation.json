@@ -1,13 +1,14 @@
 {
     "description": {
-    "translate": "enchantment.enchantencore.rejuvenation"
+    "translate": "enchantment.enchantencore.rejuvenation",
+    "color": "aqua"
   },
     "exclusive_set": "#enchantencore:exclusive_set/shield",
     "supported_items": "minecraft:shield",
     "weight": 2,
     "max_level": 4,
     "min_cost": {
-      "base": 21,
+      "base": 29,
       "per_level_above_first": 20
     },
     "max_cost": {

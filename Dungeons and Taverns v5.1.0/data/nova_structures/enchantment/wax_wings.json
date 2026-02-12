@@ -2,7 +2,8 @@
   "anvil_cost": 2,
   "description": {
     "translate": "enchantment.dnt.wax_wings",
-    "fallback": "Wax Wings"
+    "fallback": "Wax Wings",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:item_damage": [

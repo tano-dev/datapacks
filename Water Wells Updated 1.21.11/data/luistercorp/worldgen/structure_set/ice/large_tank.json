@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:ice/large_tank",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 7006006,
+      "frequency": 0.15,
+      "spacing": 40,
+      "separation": 30
+    }
+  }
+  

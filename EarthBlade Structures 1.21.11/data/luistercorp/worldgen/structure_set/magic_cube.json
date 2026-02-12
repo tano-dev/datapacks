@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:magic_cube",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 9176880,
+      "frequency": 0.75,
+      "spacing": 45,
+      "separation": 28,
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "luistercorp:amethyst_tower"
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:jungle_ruin_beacon",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1027930,
+      "frequency": 0.35,
+      "spacing": 35,
+      "separation": 30,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 8,
+        "other_set": "jungle_temples"
+      }
+    }
+  }
+  

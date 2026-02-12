@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:amethyst_house",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_house",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

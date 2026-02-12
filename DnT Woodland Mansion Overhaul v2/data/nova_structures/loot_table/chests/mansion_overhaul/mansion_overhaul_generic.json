@@ -395,7 +395,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:iron_helmet",
           "weight": 1,
           "functions": [
             {
@@ -414,7 +414,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:iron_chestplate",
           "weight": 4,
           "functions": [
             {
@@ -434,7 +434,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:iron_leggings",
           "weight": 1,
           "functions": [
             {
@@ -453,7 +453,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:iron_boots",
           "weight": 1,
           "functions": [
             {
@@ -472,7 +472,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_sword",
+          "name": "minecraft:iron_sword",
           "weight": 1,
           "functions": [
             {
@@ -491,7 +491,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_axe",
+          "name": "minecraft:iron_axe",
           "weight": 4,
           "functions": [
             {
@@ -510,7 +510,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_pickaxe",
+          "name": "minecraft:iron_pickaxe",
           "weight": 1,
           "functions": [
             {
@@ -529,7 +529,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_hoe",
+          "name": "minecraft:iron_hoe",
           "weight": 2,
           "functions": [
             {
@@ -548,7 +548,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_shovel",
+          "name": "minecraft:iron_shovel",
           "weight": 1,
           "functions": [
             {

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:fantasy_watermill",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 51037810,
+      "frequency": 0.65,
+      "spacing": 52,
+      "separation": 32,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:pillager_outposts"
+      }
+    }
+  }
+  

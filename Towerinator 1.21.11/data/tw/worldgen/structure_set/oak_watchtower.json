@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:oak_watchtower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 30784512,
+      "frequency": 0.10,
+      "spacing": 45,
+      "separation": 36,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 8,
+        "other_set": "minecraft:pillager_outposts"
+      }
+    }
+  }
+  

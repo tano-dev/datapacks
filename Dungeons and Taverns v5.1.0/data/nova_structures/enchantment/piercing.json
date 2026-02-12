@@ -2,7 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.dnt.piercing",
-    "fallback": "Blowthrough"
+    "fallback": "Blowthrough",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:projectile_piercing": [

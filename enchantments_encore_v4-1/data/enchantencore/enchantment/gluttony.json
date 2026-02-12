@@ -1,13 +1,14 @@
 {
     "description": {
-    "translate": "enchantment.enchantencore.gluttony"
+    "translate": "enchantment.enchantencore.gluttony",
+    "color": "aqua"
   },
     "exclusive_set": "#enchantencore:exclusive_set/all_tools",
     "supported_items": "#enchantencore:all_tools",
     "weight": 2,
     "max_level": 5,
     "min_cost": {
-      "base": 18,
+      "base": 25,
       "per_level_above_first": 8
     },
     "max_cost": {

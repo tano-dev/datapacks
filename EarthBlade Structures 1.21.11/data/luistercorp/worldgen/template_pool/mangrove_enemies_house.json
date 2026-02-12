@@ -1,0 +1,24 @@
+{
+    "name": "luistercorp:mangrove_enemies_house",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:mangrove_enemies_house_pillager",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:mangrove_enemies_house_vindicator",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

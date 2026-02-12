@@ -38,7 +38,7 @@
                     "mt:armor/indestructia": 1
                   },
                   "minecraft:repair_cost": 99999,
-                  "minecraft:unbreakable": {},
+                  
                   "minecraft:custom_name": {
                     "text": "Indestructia",
                     "color": "gold",

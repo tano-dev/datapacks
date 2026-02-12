@@ -2,7 +2,8 @@
   "anvil_cost": 3,
   "description": {
     "translate": "enchantment.dnt.outreach",
-    "fallback": "Outreach"
+    "fallback": "Outreach",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:attributes": [

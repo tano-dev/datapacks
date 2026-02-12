@@ -46,16 +46,16 @@
                     },
                     {
                       "id": "minecraft:strength",
-                      "amplifier": 1,
-                      "duration": 2400
+                      "amplifier": 0,
+                      "duration": 300
                     },
                     {
                       "id": "minecraft:speed",
-                      "duration": 2400
+                      "duration": 300
                     },
                     {
                       "id": "minecraft:haste",
-                      "duration": 2400
+                      "duration": 300
                     }
                   ]
                 }

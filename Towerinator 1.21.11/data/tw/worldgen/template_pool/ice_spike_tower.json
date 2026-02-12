@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:ice_spike_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:ice_spike_tower",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

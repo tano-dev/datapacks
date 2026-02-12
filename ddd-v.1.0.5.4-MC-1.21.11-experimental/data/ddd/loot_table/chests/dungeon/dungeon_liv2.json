@@ -144,7 +144,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 1,
           "functions": [
             {
@@ -189,7 +189,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 3,
           "functions": [
             {

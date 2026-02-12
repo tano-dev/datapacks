@@ -54,10 +54,7 @@
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
                 },
-                "minecraft:unbreakable": {},
-                "tooltip_display": {
-                  "hidden_components": ["unbreakable"]
-                },
+
                 "minecraft:item_name": {
                   "translate": "item.stellarity.ancient_wooden_sword",
                   "color": "white",

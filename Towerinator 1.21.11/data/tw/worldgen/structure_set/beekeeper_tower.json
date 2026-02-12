@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:beekeeper_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 8694652,
+      "frequency": 0.39,
+      "spacing": 35,
+      "separation": 29,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 10,
+        "other_set": "minecraft:swamp_huts"
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:brewing_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 10792013,
+      "frequency": 0.47,
+      "spacing": 57,
+      "separation": 36,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 10,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

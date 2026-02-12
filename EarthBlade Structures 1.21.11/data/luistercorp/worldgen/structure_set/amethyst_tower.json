@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:amethyst_tower",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 3781594,
+      "frequency": 0.53,
+      "spacing": 41,
+      "separation": 33
+    }
+  }
+  

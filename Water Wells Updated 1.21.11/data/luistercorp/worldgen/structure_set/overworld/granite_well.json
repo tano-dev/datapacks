@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:overworld/granite_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.20,
+      "salt": 96550050,
+      "spacing": 43,
+      "separation": 38
+    }
+  }
+  

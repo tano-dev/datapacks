@@ -1,0 +1,2 @@
+scoreboard players reset netherweather.reload_message netherweather.reload_message
+scoreboard players reset @s netherweather.trigger.reload_message.enable

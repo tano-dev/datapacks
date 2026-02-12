@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 94,
+        "min_format": 94,
+        "max_format": 95,
+    "description": [
+      {"text": "Add ", "color": "#ffcccc"},
+      {"text": "the ", "color": "#ccffcc"},
+      {"text": "EarthBlade ", "color": "#e5ff66"},
+      {"text": "Structures", "color": "#99ffff"},
+      {"text": "\n", "color": "white"},
+      {"text":"Luister Corp ©","color":"#55FFFF"},
+      {"text":"             "},
+      {"text": "v3.13", "color": "dark_gray"}
+    ]
+  }
+}

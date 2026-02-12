@@ -27,7 +27,7 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_relic",
           "weight": 2
-        },
+        }
 
       ]
     }

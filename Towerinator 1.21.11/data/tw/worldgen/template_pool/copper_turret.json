@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:copper_turret",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 9,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:copper_turret",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -13,11 +13,11 @@
                 "mt:armor/dark_forest_chestplate": 1,
                 "minecraft:blast_protection": {
                   "min": 1,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:fire_protection": {
                   "min": 1,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:projectile_protection": {
                   "min": 0,
@@ -25,7 +25,7 @@
                 },
                 "minecraft:protection": {
                   "min": 2,
-                  "max": 7
+                  "max": 5
                 }
               }
             },
@@ -52,7 +52,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -136,7 +136,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -220,7 +220,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -304,7 +304,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -388,7 +388,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -472,7 +472,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -556,7 +556,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -640,7 +640,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -724,7 +724,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -808,7 +808,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -892,7 +892,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -976,7 +976,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1060,7 +1060,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1144,7 +1144,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1228,7 +1228,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1312,7 +1312,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1396,7 +1396,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1480,7 +1480,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1564,7 +1564,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1648,7 +1648,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1732,7 +1732,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",
@@ -1816,7 +1816,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Dark Forest Chestplate",
                   "color": "gold",

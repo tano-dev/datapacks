@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.sandstone_tower.title",
+      "fallback": "Sandy Defense Tower"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.sandstone_tower.description",
+      "fallback": "Find the Sandstone Pillager Tower"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "luistercorp:adventure/desert_mansion",
+  "criteria": {
+    "sandstone_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:sandstone_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

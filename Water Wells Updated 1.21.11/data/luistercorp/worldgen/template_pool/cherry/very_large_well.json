@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:cerezo/pozo_cerezo_grande",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:cerezo/pozo_cerezo_grande",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

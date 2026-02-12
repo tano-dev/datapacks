@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:post_apocalyptic_watchtower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 9063148,
+      "frequency": 0.25,
+      "spacing": 43,
+      "separation": 31,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 12,
+        "other_set": "tw:post_apocalyptic_bunker"
+      }
+    }
+  }
+  

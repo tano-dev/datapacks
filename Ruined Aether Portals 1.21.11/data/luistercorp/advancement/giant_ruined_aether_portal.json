@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate" : "advancement.luistercorp.structure.giant_ruined_aether_portal.title",
+      "fallback": "Forgotten Through Time.."
+    },
+    "description": {
+      "translate" : "advancement.luistercorp.structure.giant_ruined_aether_portal.description",
+      "fallback": "Find the Giant Aether Ruined Portal"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "luistercorp:ruined_aether_portal",
+  "criteria": {
+    "giant_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "luistercorp:giant_ruined_aether_portal"
+                }
+            }
+          }
+        ]
+      }
+    },
+    "giant_portal_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "luistercorp:giant_ruined_aether_portal_ocean"
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+        "giant_portal",
+        "giant_portal_ocean"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 94,
+        "min_format": [94,0],
+        "max_format": [95,0],
+    "description": [
+      "",
+      { "text": "Add ", "color": "#66ff99" },
+      { "text": "the ", "color": "#ffffe9" },
+      { "text": "Cherry ", "color": "#f69cc8" },
+      { "text": "Monastery!", "color": "#d278a3" },
+      "\n",
+      { "text": "Luister Corp ©", "color": "#55FFFF" },
+      "             ",
+      { "text": "v5.13", "color": "dark_gray" }
+    ]
+  }
+}

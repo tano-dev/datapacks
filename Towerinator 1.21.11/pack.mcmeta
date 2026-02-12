@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 94,
+        "min_format": [94,0],
+        "max_format": [95,0],
+    "description": [
+      "",
+      { "text": "+55 ", "color": "#e9ffff" },
+      { "text": "New ", "color": "#e5ffdd" },
+      { "text": "Structures ", "color": "#fff2dd" },
+      "\n",
+      { "text": "Towerinator ©", "color": "#55FFFF" },
+      "              ",
+      { "text": "v1.3", "color": "dark_gray" }
+    ]
+  }
+}

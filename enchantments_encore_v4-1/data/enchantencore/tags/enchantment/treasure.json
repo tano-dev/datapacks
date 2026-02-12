@@ -143,6 +143,18 @@
     {
       "id": "enchantencore:heroes_crown",
       "required": false
+    },
+    {
+      "id": "enchantencore:lightning_bolt",
+      "required": false
+    },
+    {
+      "id": "enchantencore:evokers_wrath",
+      "required": false
+    },
+    {
+      "id": "keepinv:safekeep",
+      "required": false
     }
   ]
 }

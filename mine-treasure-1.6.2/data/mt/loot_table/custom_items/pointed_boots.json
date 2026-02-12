@@ -16,7 +16,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:repair_cost": 99999,
-                      "minecraft:unbreakable": {},
+                      
                       "minecraft:enchantments": {
                         "minecraft:feather_falling": 7
                       },

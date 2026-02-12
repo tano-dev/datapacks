@@ -2,7 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.dnt.power",
-    "fallback": "Might"
+    "fallback": "Might",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:damage": [

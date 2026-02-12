@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:mangrove_root_house",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 6972673,
+      "frequency": 0.6,
+      "spacing": 40,
+      "separation": 30,
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "luistercorp:mangrove_root_refuge"
+      }
+    }
+  }
+  

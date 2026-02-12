@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:dark_forest/pillager_small_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 16006006,
+      "frequency": 0.27,
+      "spacing": 22,
+      "separation": 17
+    }
+  }
+  

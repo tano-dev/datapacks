@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -80,8 +80,8 @@
                   "max": 3
                 },
                 "minecraft:blast_protection": {
-                  "min": 10,
-                  "max": 10
+                  "min": 4,
+                  "max": 7
                 }
               }
             }
@@ -95,7 +95,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -179,7 +179,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -263,7 +263,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -347,7 +347,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -431,7 +431,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -515,7 +515,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -599,7 +599,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -683,7 +683,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -767,7 +767,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -851,7 +851,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -935,7 +935,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1019,7 +1019,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1103,7 +1103,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1187,7 +1187,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1271,7 +1271,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1355,7 +1355,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1439,7 +1439,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1523,7 +1523,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1607,7 +1607,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1691,7 +1691,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1775,7 +1775,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1859,7 +1859,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -1943,7 +1943,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2027,7 +2027,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2111,7 +2111,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2195,7 +2195,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2279,7 +2279,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2363,7 +2363,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2447,7 +2447,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2531,7 +2531,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2615,7 +2615,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2699,7 +2699,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2783,7 +2783,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2867,7 +2867,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",
@@ -2951,7 +2951,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Basalt Deltas Boots",
                   "color": "gold",

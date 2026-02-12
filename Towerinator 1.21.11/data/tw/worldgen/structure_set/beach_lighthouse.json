@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:beach_lighthouse",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 3156481,
+      "frequency": 0.31,
+      "spacing": 43,
+      "separation": 22,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 4,
+        "other_set": "minecraft:buried_treasures"
+      }
+    }
+  }
+  

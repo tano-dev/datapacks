@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:sandstone_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 30795124,
+      "frequency": 0.33,
+      "spacing": 39,
+      "separation": 35,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 15,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

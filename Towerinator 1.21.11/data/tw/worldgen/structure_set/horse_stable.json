@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:horse_stable",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 63078410,
+      "frequency": 0.31,
+      "spacing": 51,
+      "separation": 39,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 94,
+    "min_format" : 94,
+    "max_format" : 95,
+    "description": [
+      "",
+      { "text": "Add ", "color": "#66ff99" },
+      { "text": "Ruined ", "color": "#ffffb4" },
+      { "text": "Aether ", "color": "#95eccd" },
+      { "text": "Portals!", "color": "#4aff6e" },
+      "\n",
+      { "text": "Luister Corp ©", "color": "#55FFFF" },
+      "             ",
+      { "text": "v3.13", "color": "dark_gray" }
+    ]
+  }
+}

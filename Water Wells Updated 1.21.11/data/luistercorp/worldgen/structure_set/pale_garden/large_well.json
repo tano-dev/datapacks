@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:pale_garden/large_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 17003003,
+      "frequency": 0.15,
+      "spacing": 35,
+      "separation": 25
+    }
+  }
+  

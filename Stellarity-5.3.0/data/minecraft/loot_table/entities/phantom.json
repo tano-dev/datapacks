@@ -100,7 +100,7 @@
             "type": "minecraft:score",
             "target": "this",
             "score": "stellarity.phantom.wings_drop_chance",
-            "scale": 0.01
+            "scale": 0.003
           }
         }
       ]

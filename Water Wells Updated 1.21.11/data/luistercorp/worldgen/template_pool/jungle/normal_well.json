@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:bambu/pozo_bambu",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:jungla/pozo_jungla",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

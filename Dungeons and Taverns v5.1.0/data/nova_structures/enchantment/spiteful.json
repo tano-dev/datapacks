@@ -2,7 +2,8 @@
   "anvil_cost": 2,
   "description": {
     "translate": "enchantment.dnt.spiteful",
-    "fallback": "Spiteful"
+    "fallback": "Spiteful",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:damage": [

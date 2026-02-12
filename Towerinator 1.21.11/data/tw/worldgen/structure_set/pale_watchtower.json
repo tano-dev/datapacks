@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:pale_watchtower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 86301274,
+      "frequency": 0.28,
+      "spacing": 40,
+      "separation": 27,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 4,
+        "other_set": "minecraft:woodland_mansions"
+      }
+    }
+  }
+  

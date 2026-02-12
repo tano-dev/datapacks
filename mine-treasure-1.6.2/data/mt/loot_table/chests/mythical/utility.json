@@ -18,13 +18,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_pickaxe",
+          "name": "minecraft:stone_pickaxe",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:efficiency": 10,
+                "minecraft:efficiency": 7,
                 "mt:technical/giga_bore": 1
               }
             },
@@ -32,7 +32,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Giga Bore",
                   "color": "gold",
@@ -49,6 +49,11 @@
                   },
                   {
                     "text": "Insta mines in 3x3, sneak to stop ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Deals damage to user per use.",
                     "color": "gray",
                     "italic": false
                   },

@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:manglar/pozo_manglar_raro",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:manglar/pozo_manglar_raro",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

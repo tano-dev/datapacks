@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:medieval_deepslate_windmill",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:medieval_deepslate_windmill",
+        "processors": "tw:preserve_deepslate"
+        }
+      }
+    ]
+  }
+  

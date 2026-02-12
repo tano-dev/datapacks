@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:jungla/pozo_mini_jungla",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:congelado/pozo_mini_congelado",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

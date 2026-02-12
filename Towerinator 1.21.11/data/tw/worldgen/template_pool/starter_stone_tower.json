@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:starter_stone_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:starter_stone_tower",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

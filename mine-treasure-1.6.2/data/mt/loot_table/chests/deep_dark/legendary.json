@@ -422,11 +422,11 @@
                 },
                 "minecraft:efficiency": {
                   "min": 4,
-                  "max": 10
+                  "max": 6
                 },
                 "minecraft:unbreaking": {
                   "min": 4,
-                  "max": 10
+                  "max": 4
                 },
                 "minecraft:mending": {
                   "min": 0,
@@ -462,8 +462,8 @@
                   "id": "mine_treasure",
                   "attribute": "minecraft:attack_damage",
                   "amount": {
-                    "min": 10,
-                    "max": 10
+                    "min": 9,
+                    "max": 9
                   },
                   "operation": "add_value",
                   "slot": "mainhand"

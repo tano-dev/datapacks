@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:taiga/large_tank",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 2008008,
+      "frequency": 0.15,
+      "spacing": 40,
+      "separation": 10
+    }
+  }
+  

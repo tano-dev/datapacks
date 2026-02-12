@@ -1,0 +1,25 @@
+{
+    "name": "luistercorp:scout_tower_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:scout_tower_enemies_fletcher",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:scout_tower_enemies_fisherman",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

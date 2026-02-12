@@ -2,7 +2,7 @@
   "anvil_cost": 2,
   "description": {
     "translate": "rrc.h-nigh.enchantment.horde_smite",
-    "fallback": "Horde Undead Crusher"
+    "fallback": "Bloodmoon Smite"
   },
   "effects": {
     "minecraft:damage": [
@@ -28,12 +28,12 @@
   },
   "exclusive_set": "#h-nigh:exclusive_set/horde_damage",
   "max_cost": {
-    "base": 25,
+    "base": 10000,
     "per_level_above_first": 8
   },
   "max_level": 5,
   "min_cost": {
-    "base": 5,
+    "base": 10000,
     "per_level_above_first": 8
   },
   "primary_items": "#minecraft:swords",

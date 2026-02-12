@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:desert_starter_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:desert_starter_tower",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

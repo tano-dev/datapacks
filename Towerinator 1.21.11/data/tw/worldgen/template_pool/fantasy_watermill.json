@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:fantasy_watermill",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:fantasy_watermill",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

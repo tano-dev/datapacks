@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:pale_garden/epic_puddle_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 17002002,
+      "frequency": 0.05,
+      "spacing": 25,
+      "separation": 20
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:ice_spike_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 8961028,
+      "frequency": 0.29,
+      "spacing": 41,
+      "separation": 33,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

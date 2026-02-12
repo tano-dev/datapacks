@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_block",
+      "count": 1
+    },
+    "title": {
+      "text": "The Tower of a Thousand Crystals"
+    }    ,
+    "description": {
+      "text": "Find the Amethyst Tower"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "luistercorp:earthblade/structuras/amethyst_house",
+  "criteria": {
+    "armory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:amethyst_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

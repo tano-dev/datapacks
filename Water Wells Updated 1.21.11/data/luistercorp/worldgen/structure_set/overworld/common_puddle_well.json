@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:overworld/common_puddle_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 130030030,
+      "frequency": 0.06,
+      "spacing": 45,
+      "separation": 38
+    }
+  }
+  

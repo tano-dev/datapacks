@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:mangrove_supply_tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:mangrove_supply_tower",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

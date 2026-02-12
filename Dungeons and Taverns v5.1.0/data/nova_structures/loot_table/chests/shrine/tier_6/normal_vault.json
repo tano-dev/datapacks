@@ -197,7 +197,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 2
         },
         {
@@ -212,7 +212,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "weight": 2
         },
         {
@@ -227,7 +227,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:diamond_leggings",
           "weight": 2
         },
         {
@@ -242,7 +242,7 @@
               "options": "#nova_structures:structure/shrine"
             }
           ],
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:diamond_boots",
           "weight": 4
         },
 		{
@@ -268,7 +268,7 @@
               ]
             }
           ],
-          "name": "minecraft:copper_axe",
+          "name": "minecraft:diamond_axe",
           "weight": 3
         },
         {
@@ -294,7 +294,7 @@
               ]
             }
           ],
-          "name": "minecraft:copper_sword",
+          "name": "minecraft:diamond_sword",
           "weight": 2
         },
 		{
@@ -320,7 +320,7 @@
               ]
             }
           ],
-          "name": "minecraft:copper_spear",
+          "name": "minecraft:diamond_spear",
           "weight": 2
         },
         {

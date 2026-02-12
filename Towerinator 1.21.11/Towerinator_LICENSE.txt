@@ -1,0 +1,22 @@
+Towerinator License (Custom) 
+Copyright (c) 2025 Luister Corp 
+Author: Luister
+
+Permissions: 
+- You may use and modify the Towerinator datapack for personal or non-commercial projects.
+- You may use the datapack on Minecraft servers, provided that visible credit is given to LuisterCorp.
+- You may include Towerinator in modpacks, provided that:
+    1) Direct and visible credit is given to the author (ALDgamer).
+    2) Prior approval is obtained via Discord (User: ALDgamer).
+
+Restrictions:
+- You may NOT extract, reuse, or redistribute the project’s structures for commercial purposes.
+- You may NOT sell,resell, or use any part of the datapack in paid products.
+- You may NOT claim full or partial authorship of the content.
+- Republishing thedatapack or its structures on other platforms without explicit permission is prohibited.
+
+Liability Disclaimer:
+The content is provided “as is”, without any express or implied warranties.
+The author and Luister Corp are not liable for damages, data loss, or issues resulting from the use of this content.
+
+Special Permissions: For large projects or special integration requests, contact the creator on Discord: ALDgamer

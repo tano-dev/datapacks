@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:horse_stable",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:horse_stable",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:abandoned_ruin_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 84461301,
+      "frequency": 0.21,
+      "spacing": 52,
+      "separation": 45,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 13,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

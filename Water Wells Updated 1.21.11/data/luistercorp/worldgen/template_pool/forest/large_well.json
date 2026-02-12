@@ -1,0 +1,15 @@
+{
+    "name": "luistercorp:roble/pozo_grande_roble",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:roble/pozo_grande_roble",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

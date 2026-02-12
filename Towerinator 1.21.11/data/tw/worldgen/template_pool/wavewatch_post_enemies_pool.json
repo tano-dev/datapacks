@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:wavewatch_post_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:wavewatch_post_enemies_pillager",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

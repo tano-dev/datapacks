@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:starter_stone_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 10278502,
+      "frequency": 0.06,
+      "spacing": 75,
+      "separation": 40,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 10,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

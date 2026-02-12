@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:desert_mansion",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 29765810,
+      "frequency": 0.86,
+      "spacing": 49,
+      "separation": 35,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 3,
+        "other_set": "minecraft:desert_pyramids"
+      }
+    }
+  }
+  

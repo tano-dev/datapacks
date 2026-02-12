@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 1,
           "functions": [
             {
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "weight": 1,
           "functions": [
             {
@@ -58,7 +58,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:diamond_leggings",
           "weight": 1,
           "functions": [
             {
@@ -84,7 +84,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:diamond_boots",
           "weight": 1,
           "functions": [
             {

@@ -5,15 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {},
-                "tooltip_display": {
-                  "hidden_components": ["unbreakable"]
-                },
                 "minecraft:item_model": "stellarity:dragonblade",
                 "minecraft:custom_data": {
                   "stellarity:item": "dragonblade"

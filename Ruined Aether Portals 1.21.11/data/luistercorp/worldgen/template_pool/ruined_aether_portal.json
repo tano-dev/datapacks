@@ -1,0 +1,132 @@
+{
+	"name": "luistercorp:ruined_aether_portal",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_01",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_02",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_03",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_04",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_05",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_06",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_07",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_08",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_09",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_10",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_11",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_12",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_13",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal/ruined_aether_portal_14",
+				"processors": "empty"
+			}
+		}
+	]
+}

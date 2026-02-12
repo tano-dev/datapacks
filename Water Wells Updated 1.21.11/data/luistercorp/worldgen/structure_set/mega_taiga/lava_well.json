@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:mega_taiga/lava_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 12002002,
+      "frequency": 0.25,
+      "spacing": 22,
+      "separation": 17
+    }
+  }
+  

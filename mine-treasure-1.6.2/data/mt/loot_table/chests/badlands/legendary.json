@@ -601,11 +601,11 @@
               "enchantments": {
                 "minecraft:unbreaking": {
                   "min": 0,
-                  "max": 10
+                  "max": 3
                 },
                 "minecraft:efficiency": {
                   "min": 0,
-                  "max": 10
+                  "max": 5
                 },
                 "minecraft:silk_touch": {
                   "min": 0,

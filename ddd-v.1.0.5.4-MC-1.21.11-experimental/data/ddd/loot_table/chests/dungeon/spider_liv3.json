@@ -228,7 +228,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 3,
           "functions": [
             {
@@ -273,7 +273,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:iron_ingot",
           "weight": 2,
           "functions": [
             {
@@ -393,7 +393,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_copper",
+          "name": "minecraft:raw_iron",
           "weight": 1,
           "functions": [
             {
@@ -731,12 +731,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
+          "name": "minecraft:diamond_horse_armor",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 2,
           "functions": [
             {
@@ -759,7 +759,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "weight": 2,
           "functions": [
             {
@@ -782,7 +782,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:diamond_leggings",
           "weight": 2,
           "functions": [
             {
@@ -805,7 +805,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:iron_boots",
           "weight": 2,
           "functions": [
             {

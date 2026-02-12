@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:bamboo_outpost",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 3969427,
+      "frequency": 0.64,
+      "spacing": 30,
+      "separation": 23,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 6,
+        "other_set": "jungle_temples"
+      }
+    }
+  }
+  

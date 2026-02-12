@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:savanna/tiny_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.18,
+      "salt": 75050050,
+      "spacing": 32,
+      "separation": 27
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:cherry/medium_tank",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 5010010,
+      "frequency": 0.2,
+      "spacing": 30,
+      "separation": 25
+    }
+  }
+  

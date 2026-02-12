@@ -2,7 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.dnt.gravity",
-    "fallback": "Gravity"
+    "fallback": "Gravity",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:post_attack": [

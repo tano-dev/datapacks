@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_planks",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.tree_cherry_house.title",
+      "fallback": "Pillagers in the Cherry Trees"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.tree_cherry_house.description",
+      "fallback": "Find the Cherry Tree House"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "luistercorp:adventure/cherry_tower",
+  "criteria": {
+    "cherry_tree_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:cherry_tree_house"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

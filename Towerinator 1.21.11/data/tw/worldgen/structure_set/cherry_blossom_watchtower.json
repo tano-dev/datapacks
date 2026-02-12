@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "tw:cherry_blossom_watchtower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 9317620,
+      "frequency": 0.58,
+      "spacing": 29,
+      "separation": 21,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:jungle_ruin_beacon",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:jungle_ruin_beacon",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

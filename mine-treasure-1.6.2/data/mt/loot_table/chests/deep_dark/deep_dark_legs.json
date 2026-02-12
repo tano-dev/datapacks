@@ -14,15 +14,15 @@
                 "mt:armor/deep_dark_leggings": 1,
                 "minecraft:protection": {
                   "min": 1,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:blast_protection": {
                   "min": 2,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:swift_sneak": {
                   "min": 3,
-                  "max": 6
+                  "max": 4
                 },
                 "minecraft:projectile_protection": {
                   "min": 1,
@@ -30,7 +30,7 @@
                 },
                 "minecraft:fire_protection": {
                   "min": 1,
-                  "max": 10
+                  "max": 6
                 }
               }
             },
@@ -38,7 +38,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -158,7 +158,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -278,7 +278,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -398,7 +398,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -518,7 +518,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -638,7 +638,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -758,7 +758,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -878,7 +878,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -998,7 +998,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1118,7 +1118,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1238,7 +1238,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1358,7 +1358,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1478,7 +1478,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1598,7 +1598,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1718,7 +1718,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1838,7 +1838,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -1958,7 +1958,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2078,7 +2078,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2198,7 +2198,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2318,7 +2318,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2438,7 +2438,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2558,7 +2558,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2678,7 +2678,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2798,7 +2798,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -2918,7 +2918,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3038,7 +3038,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3158,7 +3158,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3278,7 +3278,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3398,7 +3398,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3518,7 +3518,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3638,7 +3638,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3758,7 +3758,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3878,7 +3878,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -3998,7 +3998,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4118,7 +4118,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4238,7 +4238,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4358,7 +4358,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4478,7 +4478,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4598,7 +4598,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4718,7 +4718,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4838,7 +4838,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -4958,7 +4958,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [
@@ -5078,7 +5078,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 9999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:dyed_color": 722516,
                   "minecraft:tooltip_display": {
                     "hidden_components": [

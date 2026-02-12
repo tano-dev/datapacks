@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "enchantencore:magma_walker",
-      "required": false
-    },
-    {
       "id": "enchantencore:crop_dance",
       "required": false
     },
@@ -54,14 +50,6 @@
     },
     {
       "id": "enchantencore:invisibility_cloak",
-      "required": false
-    },
-    {
-      "id": "enchantencore:lightning_bolt",
-      "required": false
-    },
-    {
-      "id": "enchantencore:moonwalk",
       "required": false
     },
     {
@@ -137,10 +125,6 @@
       "required": false
     },
     {
-      "id": "enchantencore:evokers_wrath",
-      "required": false
-    },
-    {
       "id": "enchantencore:forge_shot",
       "required": false
     },
@@ -182,10 +166,6 @@
     },
     {
       "id": "enchantencore:pickpocket",
-      "required": false
-    },
-    {
-      "id": "enchantencore:haste",
       "required": false
     },
     {

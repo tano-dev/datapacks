@@ -1,0 +1,24 @@
+{
+    "name": "luistercorp:amethyst_enemies_house",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_enemies_pillager_house",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_enemies_vindicator_house",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

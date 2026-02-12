@@ -1,0 +1,33 @@
+{
+    "name": "luistercorp:amethyst_enemies",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_enemies_evoker",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_enemies_pillager",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "luistercorp:amethyst_enemies_vindicator",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

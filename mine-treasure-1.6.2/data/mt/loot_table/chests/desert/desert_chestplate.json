@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -129,7 +129,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -242,7 +242,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -355,7 +355,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -468,7 +468,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -581,7 +581,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -694,7 +694,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -807,7 +807,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -920,7 +920,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1033,7 +1033,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1146,7 +1146,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1259,7 +1259,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1372,7 +1372,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1485,7 +1485,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1598,7 +1598,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1711,7 +1711,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1824,7 +1824,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -1937,7 +1937,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2050,7 +2050,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2163,7 +2163,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2276,7 +2276,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2389,7 +2389,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2502,7 +2502,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2615,7 +2615,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2728,7 +2728,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2841,7 +2841,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -2954,7 +2954,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -3067,7 +3067,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",
@@ -3180,7 +3180,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:repair_cost": 99999,
-                "minecraft:unbreakable": {},
+                
                 "minecraft:custom_name": {
                   "text": "Desert Chestplate",
                   "color": "gold",

@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:mangrove_mud_tower_witch_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:mangrove_mud_tower_enemies_witch",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

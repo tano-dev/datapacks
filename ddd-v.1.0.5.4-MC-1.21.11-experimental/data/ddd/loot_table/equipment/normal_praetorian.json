@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
+          "name": "minecraft:diamond_helmet",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -19,7 +19,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:copper",
+                  "material": "minecraft:diamond",
                   "pattern": "minecraft:bolt"
                 }
               }
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
+          "name": "minecraft:diamond_chestplate",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -46,7 +46,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:copper",
+                  "material": "minecraft:diamond",
                   "pattern": "minecraft:bolt"
                 }
               }
@@ -60,7 +60,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
+          "name": "minecraft:diamond_leggings",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -73,7 +73,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:copper",
+                  "material": "minecraft:diamond",
                   "pattern": "minecraft:bolt"
                 }
               }
@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
+          "name": "minecraft:diamond_boots",
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -101,7 +101,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:copper",
+                  "material": "minecraft:diamond",
                   "pattern": "minecraft:bolt"
                 }
               }
@@ -115,7 +115,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_sword",
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "minecraft:set_enchantments",

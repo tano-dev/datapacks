@@ -1,0 +1,132 @@
+{
+	"name": "luistercorp:ruined_aether_portal",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_01",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_02",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_03",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_04",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_05",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_06",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_07",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_08",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_09",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_10",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_11",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_12",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_13",
+				"processors": "luistercorp:nether_portal"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "luistercorp:ruined_aether_portal_nether/ruined_aether_portal_14",
+				"processors": "luistercorp:nether_portal"
+			}
+		}
+	]
+}

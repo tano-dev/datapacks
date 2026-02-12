@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:mangrove_mud_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 4105802,
+      "frequency": 0.27,
+      "spacing": 43,
+      "separation": 37,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 2,
+        "other_set": "minecraft:swamp_huts"
+      }
+    }
+  }
+  

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_wall"
+    },
+    "title": {
+      "translate" : "advancement.luistercorp.structure.ruined_aether_portal_nether.title",
+      "fallback": "Portals within Hell Itself..."
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.ruined_aether_portal_nether.description",
+      "fallback": "Find the Aether Ruined Portal in the Nether"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nether/root",
+  "criteria": {
+    "portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "luistercorp:ruined_aether_portal_nether"
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

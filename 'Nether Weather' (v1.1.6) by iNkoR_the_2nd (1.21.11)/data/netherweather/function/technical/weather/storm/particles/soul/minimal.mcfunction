@@ -1,0 +1,15 @@
+#General
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ #netherweather:storm run particle minecraft:small_gust ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ #netherweather:storm run particle gust ~ ~ ~ 100 50 100 0.001 1 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ #netherweather:storm run particle dust_plume ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ #netherweather:storm run particle sweep_attack ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 unless biome ~ ~ ~ #netherweather:storm run particle soul_fire_flame ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 unless biome ~ ~ ~ #netherweather:storm run particle trial_spawner_detection_ominous ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 1 run particle soul_fire_flame ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 1 run particle trial_spawner_detection_ominous ~ ~ ~ 100 50 100 0.001 125 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+#Ash
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ soul_sand_valley run particle ash ~ ~ ~ 100 125 100 0.001 1500 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ basalt_deltas run particle white_ash ~ ~ ~ 100 125 100 0.001 1500 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+#Spores
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ crimson_forest run particle crimson_spore ~ ~ ~ 100 125 100 0.001 1500 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]
+execute if score netherweather.heatblast.everywhere netherweather.loaded matches 0 if biome ~ ~ ~ warped_forest run particle warped_spore ~ ~ ~ 100 125 100 0.001 1500 normal @a[predicate=netherweather:in_the_nether,tag=!global.ignore.gui,distance=..15]

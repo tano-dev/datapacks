@@ -1,17 +1,18 @@
 {
     "description": {
-      "translate": "enchantment.enchantencore.lingering"
+      "translate": "enchantment.enchantencore.lingering",
+      "color": "aqua"
     },
     "supported_items": "#enchantencore:all_bows",
     "primary_items": "minecraft:bow",
     "weight": 3,
     "max_level": 1,
     "min_cost": {
-      "base": 21,
+      "base": 31,
       "per_level_above_first": 10
     },
     "max_cost": {
-      "base": 51,
+      "base": 55,
       "per_level_above_first": 10
     },
     "anvil_cost": 4,

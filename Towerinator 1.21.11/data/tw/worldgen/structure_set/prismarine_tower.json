@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:prismarine_tower",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 7320197,
+      "frequency": 0.37,
+      "spacing": 47,
+      "separation": 39,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 8,
+        "other_set": "minecraft:ocean_ruins"
+      }
+    }
+  }
+  

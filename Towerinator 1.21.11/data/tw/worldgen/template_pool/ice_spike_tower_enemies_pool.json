@@ -1,0 +1,34 @@
+{
+    "name": "luistercorp:ice_spike_tower_enemies_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:ice_spike_tower_enemies_pillager",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:ice_spike_tower_enemies_vindicator",
+        "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:ice_spike_tower_enemies_evoker",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

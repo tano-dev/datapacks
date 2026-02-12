@@ -6,12 +6,12 @@
   },
   "exclusive_set": "#h-nigh:exclusive_set/horde_knowledge",
   "max_cost": {
-    "base": 30,
+    "base": 10000,
     "per_level_above_first": 5
   },
   "max_level": 3,
   "min_cost": {
-    "base": 1,
+    "base": 10000,
     "per_level_above_first": 1
   },
   "primary_items": "#minecraft:swords",

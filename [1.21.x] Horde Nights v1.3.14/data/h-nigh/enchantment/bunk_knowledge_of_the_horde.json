@@ -2,16 +2,16 @@
   "anvil_cost": 2,
   "description": {
     "translate": "rrc.h-nigh.enchantment.bunk_knowledge_of_the_horde",
-    "fallback": "Bunk Knowledge of The Horde"
+    "fallback": "Lunar Knowledge of The Horde"
   },
   "exclusive_set": "#h-nigh:exclusive_set/horde_knowledge",
   "max_cost": {
-    "base": 1,
+    "base": 10000,
     "per_level_above_first": 2
   },
   "max_level": 5,
   "min_cost": {
-    "base": 1,
+    "base": 10000,
     "per_level_above_first": 1
   },
   "primary_items": "#minecraft:swords",

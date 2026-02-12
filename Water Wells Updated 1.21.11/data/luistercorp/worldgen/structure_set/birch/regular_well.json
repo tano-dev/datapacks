@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:birch/regular_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1007007,
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.15,
+      "spacing": 30,
+      "separation": 20
+    }
+  }
+  

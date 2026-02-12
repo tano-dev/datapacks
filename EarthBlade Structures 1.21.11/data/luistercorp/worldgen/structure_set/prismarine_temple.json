@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:prismarine_temple",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "frequency_reduction_method":"default",
+      "salt": 125580,
+      "frequency": 0.5,
+      "spacing": 30,
+      "separation": 25
+    }
+  }
+  

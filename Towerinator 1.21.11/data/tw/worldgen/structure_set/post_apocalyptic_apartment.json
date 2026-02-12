@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:post_apocalyptic_apartment",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1207841,
+      "frequency": 0.18,
+      "spacing": 51,
+      "separation": 44,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 13,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

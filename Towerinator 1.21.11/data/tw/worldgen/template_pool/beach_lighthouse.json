@@ -1,0 +1,16 @@
+{
+    "name": "luistercorp:beach_lighthouse",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "tw:beach_lighthouse",
+        "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

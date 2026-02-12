@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:desert/lapis_sphinx_statue",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "salt": 8001001,
+      "frequency": 0.03,
+      "spacing": 30,
+      "separation": 27
+    }
+  }
+  

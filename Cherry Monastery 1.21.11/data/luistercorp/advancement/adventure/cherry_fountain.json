@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_leaves",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.luistercorp.structure.cherry_fountain.title",
+      "fallback": "Where the Blossom Flows"
+    },
+    "description": {
+      "translate": "advancement.luistercorp.structure.cherry_fountain.description",
+      "fallback": "Find the Cherry Fountain"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "luistercorp:adventure/cherry_monastery",
+  "criteria": {
+    "cherry_fountain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "luistercorp:cherry_fountain"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

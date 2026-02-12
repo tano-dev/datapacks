@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:bamboo_watchpost",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 9013750,
+      "frequency": 0.24,
+      "spacing": 36,
+      "separation": 28,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 12,
+        "other_set": "jungle_temples"
+      }
+    }
+  }
+  

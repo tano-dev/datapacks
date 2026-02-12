@@ -1,13 +1,14 @@
 {
     "description": {
-    "translate": "enchantment.enchantencore.leech"
+    "translate": "enchantment.enchantencore.leech",
+    "color": "aqua"
   },
     "supported_items": "#enchantencore:weapons",
     "primary_items": "#minecraft:enchantable/melee_weapon",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
-      "base": 30,
+      "base": 31,
       "per_level_above_first": 20
     },
     "max_cost": {

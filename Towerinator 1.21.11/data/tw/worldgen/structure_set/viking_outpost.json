@@ -1,0 +1,22 @@
+{
+    "structures": [
+      {
+        "structure": "tw:viking_outpost",
+        "weight": 6
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1287463,
+      "frequency": 0.52,
+      "spacing": 34,
+      "separation": 27,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "exclusion_zone": {
+        "chunk_count": 7,
+        "other_set": "minecraft:villages"
+      }
+    }
+  }
+  

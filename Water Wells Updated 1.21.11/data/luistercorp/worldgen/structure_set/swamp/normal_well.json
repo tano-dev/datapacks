@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "luistercorp:swamp/normal_well",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "default",
+      "spread_type":"triangular",
+      "frequency": 0.22,
+      "salt": 45050050,
+      "spacing": 30,
+      "separation": 25
+    }
+  }
+  

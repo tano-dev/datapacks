@@ -1,4 +1,7 @@
 scoreboard players add @s mt.break_deepslate 1
+damage @s 2 minecraft:dragon_breath
+damage @s 2 minecraft:cactus
+
 
 # Layer y=0
 execute if block ~-1 ~-1 ~-1 #minecraft:mineable/pickaxe run setblock ~-1 ~-1 ~-1 air destroy
