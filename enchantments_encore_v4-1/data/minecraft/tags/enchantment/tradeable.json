@@ -29,10 +29,6 @@
       "required": false
     },
     {
-      "id": "enchantencore:crab_claw",
-      "required": false
-    },
-    {
       "id": "enchantencore:gallop",
       "required": false
     },
@@ -230,6 +226,10 @@
     },
     {
       "id": "enchantencore:surfer",
+      "required": false
+    },
+    {
+      "id": "enchantencore:gluttony",
       "required": false
     }
   ]

@@ -1,13 +1,14 @@
 {
     "description": {
-    "translate": "enchantment.enchantencore.crab_claw"
+    "translate": "enchantment.enchantencore.crab_claw",
+    "color": "aqua"
   },
     "supported_items": "#enchantencore:all_tools",
     "exclusive_set": "#enchantencore:exclusive_set/reach",
     "weight": 1,
     "max_level": 3,
     "min_cost": {
-      "base": 15,
+      "base": 38,
       "per_level_above_first": 9
     },
     "max_cost": {

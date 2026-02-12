@@ -1,0 +1,78 @@
+{
+  "description": {
+    "text": "Poison Infused",
+    "color": "aqua"
+  },
+  "exclusive_set": "#enchantencore:exclusive_set/shot_arrow",
+  "supported_items": "#enchantencore:all_bows",
+  "weight": 4,
+  "max_level": 3,
+  "min_cost": {
+    "base": 21,
+    "per_level_above_first": 30
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 30
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": false
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:poison",
+          "min_duration": {
+            "type": "minecraft:lookup",
+            "values": [
+              4,
+              3,
+              4
+            ],
+            "fallback": 4
+          },
+          "max_duration": {
+            "type": "minecraft:lookup",
+            "values": [
+              4,
+              3,
+              4
+            ],
+            "fallback": 4
+          },
+          "min_amplifier": {
+            "type": "minecraft:lookup",
+            "values": [
+              0,
+              1,
+              1
+            ],
+            "fallback": 4
+          },
+          "max_amplifier": {
+            "type": "minecraft:lookup",
+            "values": [
+              0,
+              1,
+              1
+            ],
+            "fallback": 4
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}
