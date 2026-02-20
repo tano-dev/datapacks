@@ -53,12 +53,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "quality": 1,
-          "value": "stellarity:item/food/fish/crystal_heartfish",
-          "conditions": []
-        },
-        {
-          "type": "minecraft:loot_table",
           "weight": 8,
           "value": "stellarity:item/food/fish/prismite",
           "conditions": [
